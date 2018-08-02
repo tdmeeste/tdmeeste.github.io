@@ -148,6 +148,15 @@
 		text-align: right;
 	}
 
+    .bottom-vspace05 {
+        margin-bottom: 5em;
+    }
+
+    .top-vspace05 {
+        margin-top: 5em;
+    }
+
+
 /* Section/Article */
 
 	section.special, article.special {
