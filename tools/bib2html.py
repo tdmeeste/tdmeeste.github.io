@@ -65,6 +65,7 @@ def get_venue(bibentry):
         return latex_to_unicode(bibentry.fields['howpublished'])
 
 
+
 def format_entry(bibentry):
     # quick & dirty
 
@@ -84,11 +85,32 @@ def format_entry(bibentry):
         # year
         year_string = "" if not 'year' in bibentry.fields else unidecode(bibentry.fields['year'])
 
+        # online
+        online = ""
+        if 'url' in bibentry.fields and not 'doi.' in bibentry.fields['url']:
+            online += '&nbsp;<a href="{}">[online]</a>'.format(bibentry.fields['url'])
+        if 'code' in bibentry.fields:
+            online += '&nbsp;<a href="{}">[code]</a>'.format(bibentry.fields['code'])
+        if 'data' in bibentry.fields:
+            online += '&nbsp;<a href="{}">[data]</a>'.format(bibentry.fields['data'])
+        if 'pdf' in bibentry.fields:
+            online += '&nbsp;<a href="{}">[pdf]</a>'.format(bibentry.fields['pdf'])
+        if 'status' in bibentry.fields:
+            online += '&nbsp;<b><font color="blue">{}</font></b>'.format(bibentry.fields['status'])
+
+        #pubtype
+        pubtype = ""
+        if 'pubtype' in bibentry.fields:
+            if bibentry.fields['pubtype'] == 'a1':
+                pubtype += '&nbsp;<b><font color="green">(a1)</font></b>'
+
         result = '\t<li>'
         result += unicode_to_html(authors_string) + '. ' if len(authors_string) > 0 else ''
         result += '&nbsp;<i>"' + unicode_to_html(title_string.strip()) + '"</i>' if len(title_string) > 0 else ''
         result += ',&nbsp;<b>' + unicode_to_html(target_string) + '</b>' if len(target_string) > 0 else ''
         result += ',&nbsp;' + unicode_to_html(year_string) + '.' if len(year_string) > 0 else '.'
+        result += online
+        result += pubtype
         result += '</li>'
 
 
@@ -106,6 +128,7 @@ def format_year(yyyy, domain):
     return result
 
 
+total_a1 = 0
 for domain, bibfile in bibfiles:
     # Load the list of publications from bib file
     parser = pybtex.database.input.bibtex.Parser(encoding="UTF-8")
@@ -120,6 +143,9 @@ for domain, bibfile in bibfiles:
     is_first = True
 
     for id, bibentry in bib_data.entries.items():
+        if 'pubtype' in bibentry.fields and bibentry.fields['pubtype'] == 'a1':
+            total_a1 += 1
+
         if not 'year' in bibentry.fields:
             print('\nWarning: no "year" field - ignore entry \n', bibentry)
         else:
@@ -153,3 +179,5 @@ for domain, bibfile in bibfiles:
     with open('biblio_%s.html' % domain, 'w') as htmlfile:
         htmlfile.write(html_str)
 #        htmlfile.write(BeautifulSoup(html_str, 'html.parser').prettify())
+
+print('total a1 papers: ', total_a1)
