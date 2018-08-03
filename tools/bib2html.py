@@ -44,6 +44,9 @@ def person_name(person):
     name = latex_to_unicode(name)
     return name
 
+def is_me(author):
+    return 'thomas' in author.lower() and 'demeester' in author.lower()
+
 
 def get_venue(bibentry):
     if bibentry.type == 'article':
@@ -72,12 +75,24 @@ def format_entry(bibentry):
     bibtype = bibentry.type.lower()
     if bibtype in ['inproceedings', 'article', 'phdthesis']:
         # authors
-        author_string = ""
+        authors_string, author_key = "", ""
         if 'author' in bibentry.persons:
+            author_key = 'author'
+        elif 'editor' in bibentry.persons:
+            author_key = 'editor'
+        if len(author_key) > 0:
+            authors_lst = [unidecode(person_name(author)) for author in bibentry.persons[author_key]]
+            authors_lst = [author if not is_me(author) else '<u>' + author + '</u>' for author in authors_lst]
+            authors_string = ', '.join(authors_lst)
+
+        """
+        author_key = 'author' if 'author' in bibentry.persons
+            author_key =
             # authors_string = unidecode(u', '.join([person_name(author) for author in bibentry.persons['author']]))
             authors_string = u', '.join([person_name(author) for author in bibentry.persons['author']])
         elif 'editor' in bibentry.persons:
             authors_string = unidecode(u', '.join([person_name(editor) for editor in bibentry.persons['editor']]))
+        """
         # title
         title_string = "" if not 'title' in bibentry.fields else unidecode(strip_braces(bibentry.fields['title']))
         # venue / journal
@@ -96,7 +111,7 @@ def format_entry(bibentry):
         if 'pdf' in bibentry.fields:
             online += '&nbsp;<a href="{}">[pdf]</a>'.format(bibentry.fields['pdf'])
         if 'status' in bibentry.fields:
-            online += '&nbsp;<b><font color="blue">{}</font></b>'.format(bibentry.fields['status'])
+            online += '&nbsp;<b><font color="blue">({})</font></b>'.format(bibentry.fields['status'])
 
         #pubtype
         pubtype = ""
@@ -105,7 +120,7 @@ def format_entry(bibentry):
                 pubtype += '&nbsp;<b><font color="green">(a1)</font></b>'
 
         result = '\t<li>'
-        result += unicode_to_html(authors_string) + '. ' if len(authors_string) > 0 else ''
+        result += authors_string + '. ' if len(authors_string) > 0 else ''
         result += '&nbsp;<i>"' + unicode_to_html(title_string.strip()) + '"</i>' if len(title_string) > 0 else ''
         result += ',&nbsp;<b>' + unicode_to_html(target_string) + '</b>' if len(target_string) > 0 else ''
         result += ',&nbsp;' + unicode_to_html(year_string) + '.' if len(year_string) > 0 else '.'
