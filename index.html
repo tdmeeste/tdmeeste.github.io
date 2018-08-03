@@ -5,6 +5,40 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
+
+
+    <script>
+    function includeHTML() {
+      var z, i, elmnt, file, xhttp;
+      /*loop through a collection of all HTML elements:*/
+      z = document.getElementsByTagName("*");
+      for (i = 0; i < z.length; i++) {
+        elmnt = z[i];
+        /*search for elements with a certain atrribute:*/
+        file = elmnt.getAttribute("w3-include-html");
+        if (file) {
+          /*make an HTTP request using the attribute value as the file name:*/
+          xhttp = new XMLHttpRequest();
+          xhttp.onreadystatechange = function() {
+            if (this.readyState == 4) {
+              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+              /*remove the attribute, and call this function once more:*/
+              elmnt.removeAttribute("w3-include-html");
+              includeHTML();
+            }
+          }
+          xhttp.open("GET", file, true);
+          xhttp.send();
+          /*exit the function:*/
+          return;
+        }
+      }
+    };
+    </script>
+
+
+
 	<head>
 		<title>Thomas Demeester</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -99,7 +133,7 @@
                                 </tr>
                                 <tr>
                                     <td>07/13/2018</td>
-                                    <td><i>"Joint entity recognition and relation extraction as a multi-head selection problem"</i> accepted by <u>Expert Systems With Applications</u>. <a href="https://arxiv.org/abs/1804.07847v1">[online]</a> <a href="https://arxiv.org/pdf/1804.07847v1.pdf">[pdf]</a>.</td>
+                                    <td><i>"Joint entity recognition and relation extraction as a multi-head selection problem"</i> accepted by <u>Expert Systems With Applications</u>. <a href="https://arxiv.org/pdf/1804.07847v1.pdf">[pdf]</a>.</td>
                                 </tr>
                             </table>
 						</div>
@@ -167,12 +201,11 @@
                     <a href="#" class="image center"><img src="images/email.png" alt="" height="35"/></a>    
                         <p>postdoctoral researcher at 
                             <a href="https://www.ugent.be/ea/idlab/en">IDLab</a>, <a href="https://www.ugent.be/en">Ghent University</a> - <a href="https://www.imec-int.com/en/home">imec</a> <br/>
-                    iGent, office 10.01<br/>
-                    Technologiepark 15<br/>
-                    9052 Ghent<br/>
-                    BELGIUM</p>                      
-
-                        							<ul class="icons">
+							iGent, office 10.01<br/>
+							Technologiepark 15<br/>
+							9052 Ghent<br/>
+							BELGIUM</p>
+							<ul class="icons">
 								<li><a href="https://twitter.com/thomeestr/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 								<li><a href="https://www.linkedin.com/in/thomas-demeester-69ba7581/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							</ul>
@@ -185,28 +218,13 @@
 
 
 		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<div class="row">
-						<div class="6u">
-							<div class="row collapse-at-2">
-								<div class="0u">
-									<h3>Useful links</h3>
-									<ul class="alt">
-                                        <li><a href="#">Text to Knowledge research cluster</a> at <a href="https://www.ugent.be/ea/idlab/en">IDLab</a>, <a href="https://www.ugent.be/en">Ghent University</a> - <a href="https://www.imec-int.com/en/home">imec</a></li>
-                                        <li><a href="https://www.lt3.ugent.be/">Language and Translation Technology Team</a> (LT3) at Ghent University</li>
-                                        <li><a href="http://users.atlantis.ugent.be/cdvelder/">Chris Develder</a>, <a href="">Lucas Sterckx</a>, <a href="https://bekou.github.io/">Giannis Bekoulis</a>, <a href="https://www.fredericgodin.com/">Frederic Godin</a>, </li>
-                                        <li><a href="http://emnlp2018.org/">EMNLP 2018</a>, <a href="http://www.conll.org/2018">CoNLL 2018</a>, <a href="https://nips.cc/">NIPS 2018</a></li>
-									</ul>
-								</div>
-							</div>
-                        </div>						
-					</div>
-					<ul class="copyright">
-						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-					</ul>
-				</div>
-			</footer>
+			<div w3-include-html="_snippets/footer.html"></div>
+
+
+
+        <script>
+        includeHTML();
+        </script>
 
 	</body>
 </html>
