@@ -1,0 +1,8 @@
+title: Thomas Demeester
+email: thomas.demeester@ugent.be
+description: My homepage!
+twitter_username: thomeestr
+github_username:  tdmeeste
+
+# Build settings
+include: ['_pages']

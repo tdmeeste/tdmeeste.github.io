@@ -1,73 +1,8 @@
+---
+layout: default
+---
+
 <!DOCTYPE HTML>
-<!--
-	Ion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-
-    <script>
-    function includeHTML() {
-      var z, i, elmnt, file, xhttp;
-      /*loop through a collection of all HTML elements:*/
-      z = document.getElementsByTagName("*");
-      for (i = 0; i < z.length; i++) {
-        elmnt = z[i];
-        /*search for elements with a certain atrribute:*/
-        file = elmnt.getAttribute("w3-include-html");
-        if (file) {
-          /*make an HTTP request using the attribute value as the file name:*/
-          xhttp = new XMLHttpRequest();
-          xhttp.onreadystatechange = function() {
-            if (this.readyState == 4) {
-              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-              /*remove the attribute, and call this function once more:*/
-              elmnt.removeAttribute("w3-include-html");
-              includeHTML();
-            }
-          }      
-          xhttp.open("GET", file, true);
-          xhttp.send();
-          /*exit the function:*/
-          return;
-        }
-      }
-    };
-    </script>
-    
-    
-    
-    
-    
-    <head>
-		<title>Thomas Demeester</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-	</head>
-	<body id="top">
-
-		<!-- Header -->
-			<header id="header" class="skel-layers-fixed">
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="https://scholar.google.com/citations?user=x_0MCH4AAAAJ&hl=en">Publications</a></li>
-						<li><a href="index.html#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
 
 
 		<!-- Banner -->
@@ -77,8 +12,12 @@
 					<p>Natural Language Processing, Deep Learning & AI</p>
 					<ul class="actions">
 						<li><a href="index.html" class="button big alt">Home</a></li>
-						<li><a href="#bibCS" class="button big alt">Computer Science Publications</a></li>
-						<li><a href="#bibEE" class="button big alt">Electrical Engineering Publications</a></li>
+						<li><a href="publications.html" class="button big alt">Publications</a></li>
+						<li><a href="contact.html" class="button big alt">Contact</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#bibCS" class="button alt">Computer Science</a></li>
+						<li><a href="#bibEE" class="button alt">Electrical Engineering</a></li>
 					</ul>
 				</div>
 			</section>
@@ -86,6 +25,7 @@
 
         <!-- Links -->
 			<section id="publinks" class="wrapper style1">
+
                 <div class="container">
                     <ul class="actions">
 						<li><a href="https://scholar.google.be/citations?user=x_0MCH4AAAAJ&hl=en" class="button big special" target="_blank">Scholar</a></li>
@@ -93,7 +33,6 @@
 
         
         <!-- Computer Science publications -->
-            <a name="bibCS"></a> 
 			<section id="bibCS" class="wrapper style1">
                 <div class="container">
                     <header class="major">
@@ -111,15 +50,14 @@
                         </ul>
                     </header>
 
-                    <div w3-include-html="_includes/biblio_CS.html"></div>
-                
+                    {% include biblio_CS.html %}
+
                 </div>
             </section>
         
 
         
         <!-- Electrical engineering publications -->
-            <a name="bibEE"></a> 
 			<section id="bibEE" class="wrapper style1">
                 <div class="container">
                     <header class="major">
@@ -134,22 +72,9 @@
                             <li><a href="#bibEE2007" class="button big alt">2007</a></li>
                         </ul>
                     </header>
-                    
-                    <div w3-include-html="_includes/biblio_EE.html"></div>
 
+                    {% include biblio_EE.html %}
                     
                 </div>
             </section>
         
-
-
-		<!-- Footer -->
-			<div w3-include-html="_snippets/footer.html"></div>
-
-                    
-        <script>
-        includeHTML();
-        </script>                    
-
-	</body>
-</html>

@@ -191,7 +191,7 @@ for domain, bibfile in bibfiles:
     html_str += '\n</ul></div>'
 
 
-    with open('biblio_%s.html' % domain, 'w') as htmlfile:
+    with open('_includes/biblio_%s.html' % domain, 'w') as htmlfile:
         htmlfile.write(html_str)
 #        htmlfile.write(BeautifulSoup(html_str, 'html.parser').prettify())
 

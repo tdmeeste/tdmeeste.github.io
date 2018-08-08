@@ -1,70 +1,6 @@
-<!DOCTYPE HTML>
-<!--
-	Ion by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
-
-    <script>
-    function includeHTML() {
-      var z, i, elmnt, file, xhttp;
-      /*loop through a collection of all HTML elements:*/
-      z = document.getElementsByTagName("*");
-      for (i = 0; i < z.length; i++) {
-        elmnt = z[i];
-        /*search for elements with a certain atrribute:*/
-        file = elmnt.getAttribute("w3-include-html");
-        if (file) {
-          /*make an HTTP request using the attribute value as the file name:*/
-          xhttp = new XMLHttpRequest();
-          xhttp.onreadystatechange = function() {
-            if (this.readyState == 4) {
-              if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-              if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-              /*remove the attribute, and call this function once more:*/
-              elmnt.removeAttribute("w3-include-html");
-              includeHTML();
-            }
-          }
-          xhttp.open("GET", file, true);
-          xhttp.send();
-          /*exit the function:*/
-          return;
-        }
-      }
-    };
-    </script>
-
-
-	<head>
-		<title>Thomas Demeester</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-	</head>
-	<body id="top">
-
-		<!-- Header -->
-			<header id="header" class="skel-layers-fixed">
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="publications.html">Publications</a></li>
-						<li><a href="index.html#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+---
+layout: default
+---
 
 
 		<!-- Banner -->
@@ -73,17 +9,20 @@
 					<h2>Thomas Demeester</h2>
 					<p>Natural Language Processing, Deep Learning & AI</p>
 					<ul class="actions">
-						<li><a href="#bio" class="button big alt">Bio</a></li>
-						<li><a href="#news" class="button big alt">News</a></li>
+						<li><a href="index.html" class="button big alt">Home</a></li>
 						<li><a href="publications.html" class="button big alt">Publications</a></li>
-						<li><a href="#recent" class="button big alt">Recent work</a></li>
-						<li><a href="#contact" class="button big alt">Contact</a></li>
+						<li><a href="contact.html" class="button big alt">Contact</a></li>
+					</ul>
+					<ul class="actions">
+						<li><a href="#bio" class="button alt">Bio</a></li>
+						<li><a href="#news" class="button alt">News</a></li>
+						<li><a href="#recent" class="button alt">Recent work</a></li>
 					</ul>
 				</div>
 			</section>
 
+
 		<!-- Short bio -->
-            <a name="bio"></a> 
 			<section id="bio" class="wrapper style1">
                 <div class="container">
                     <header class="major">
@@ -99,23 +38,22 @@
 							<section>
                                 <!--current research-->
 								<p>
-                                    I'm a postdoctoral researcher at the <a href="https://www.ugent.be/ea/idlab/en">Internet Technology and Data Science Lab (IDLab)</a>, Ghent University, Belgium. I'm co-leading the Text-to-Knowledge research cluster with prof. <a href="http://users.atlantis.ugent.be/cdvelder/">Chris Develder</a>, where we work on natural language processing in general, with focus on information extraction for applications in the media and medical domain.</p> 
+                                    I'm a postdoctoral researcher at the <a href="https://www.ugent.be/ea/idlab/en">Internet Technology and Data Science Lab (IDLab)</a>, Ghent University, Belgium. I'm co-leading the Text-to-Knowledge research cluster with prof. <a href="http://users.atlantis.ugent.be/cdvelder/">Chris Develder</a>, where we work on natural language processing in general, with focus on information extraction for applications in the media and medical domain.</p>
                                 <p>
-                                    Besides sequence modeling with neural networks, I'm particularly interested in injecting background knowledge in neural network models. During a recent research visit at the <a href="http://mr.cs.ucl.ac.uk/">Machine Reading Lab</a> at the <a href="https://www.ucl.ac.uk/">University College London</a>, I worked on <a href="https://arxiv.org/abs/1606.08359">injecting first-order logic into neural link prediction models</a>. Together with the <a href="https://dtai.cs.kuleuven.be/">DTAI</a> research group at <a href="https://www.kuleuven.be/english/">KULeuven</a>, I am currently working on the <a href="https://arxiv.org/abs/1805.10872">combination of neural networks and probabilistic logic programs</a>. These research topics fit within my general interest in joining deep learning models with classical systems for various applications. My latest research focuses on the combination of my current expertise in deep learning with previous experience in solving sets of differential equations. 
+                                    Besides sequence modeling with neural networks, I'm particularly interested in injecting background knowledge in neural network models. During a recent research visit at the <a href="http://mr.cs.ucl.ac.uk/">Machine Reading Lab</a> at the <a href="https://www.ucl.ac.uk/">University College London</a>, I worked on <a href="https://arxiv.org/abs/1606.08359">injecting first-order logic into neural link prediction models</a>. Together with the <a href="https://dtai.cs.kuleuven.be/">DTAI</a> research group at <a href="https://www.kuleuven.be/english/">KULeuven</a>, I am currently working on the <a href="https://arxiv.org/abs/1805.10872">combination of neural networks and probabilistic logic programs</a>. These research topics fit within my general interest in joining deep learning models with classical systems for various applications. My latest research focuses on the combination of my current expertise in deep learning with previous experience in solving sets of differential equations.
                                 </p>
                                 <p>
-                                    In 2005, I received my M.Sc. degree in electrical engineering at Ghent University, after finishing my final year and master thesis at <a href="https://www.ethz.ch/en.html">ETH Zurich</a>, Switzerland, where I worked as a student assistent. In 2009, funded by a grant from the <a href="http://www.fwo.be/en/">Research Foundation - Flanders</a> (FWO), I obtained my Ph.D. at the Ghent University Department of Information Technology, under the supervision of prof. Daniel De Zutter, in the area of computational electromagnetics. 
-                                    Shortly afterwards, I got involved in research on Information Retrieval, in collaboration with the <a href="https://www.utwente.nl/en/eemcs/db/">Database Group</a> at the <a href="https://www.utwente.nl/en/">University of Twente</a> in The Netherlands. 
-                                </p>                               
+                                    In 2005, I received my M.Sc. degree in electrical engineering at Ghent University, after finishing my final year and master thesis at <a href="https://www.ethz.ch/en.html">ETH Zurich</a>, Switzerland, where I worked as a student assistent. In 2009, funded by a grant from the <a href="http://www.fwo.be/en/">Research Foundation - Flanders</a> (FWO), I obtained my Ph.D. at the Ghent University Department of Information Technology, under the supervision of prof. Daniel De Zutter, in the area of computational electromagnetics.
+                                    Shortly afterwards, I got involved in research on Information Retrieval, in collaboration with the <a href="https://www.utwente.nl/en/eemcs/db/">Database Group</a> at the <a href="https://www.utwente.nl/en/">University of Twente</a> in The Netherlands.
+                                </p>
 							</section>
 							<!--<hr />-->
 						</div>
 					</div>
 				</div>
-			</section>			
+			</section>
 
 		<!-- News -->
-            <a name="news"></a> 
 			<section id="news" class="wrapper style2">
 				<header class="major">
 					<h2>Latest News</h2>
@@ -142,14 +80,13 @@
 
 
 		<!-- Recent work -->
-            <a name="recent"></a> 
-			<section id="one" class="wrapper style1">
+			<section id="recent" class="wrapper style1">
 				<header class="major">
 					<h2>Recent Work</h2>
 					<!--<p>Tempus adipiscing commodo ut aliquam blandit</p>-->
 				</header>
 				<div class="container">
-					<div class="row">                        
+					<div class="row">
 						<div class="4u">
 							<section class="special box">
                                 <div class="image rounded">
@@ -184,44 +121,5 @@
 					</div>
 				</div>
 			</section>
-			
-
-		<!-- Contact -->
-            <a name="contact"></a> 
-			<section id="two" class="wrapper style2">
-				<header class="major">
-					<h2>Contact</h2>
-					<!--<p>Amet nisi nunc lorem accumsan</p>-->
-				</header>
-				<div class="container">
-                    <section class="special">
-                    <h3>Thomas Demeester</h3>
-                    <a href="#" class="image center"><img src="images/email.png" alt="" height="35"/></a>    
-                        <p>postdoctoral researcher at 
-                            <a href="https://www.ugent.be/ea/idlab/en">IDLab</a>, <a href="https://www.ugent.be/en">Ghent University</a> - <a href="https://www.imec-int.com/en/home">imec</a> <br/>
-							iGent, office 10.01<br/>
-							Technologiepark 15<br/>
-							9052 Ghent<br/>
-							BELGIUM</p>
-							<ul class="icons">
-								<li><a href="https://twitter.com/thomeestr/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.linkedin.com/in/thomas-demeester-69ba7581/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							</ul>
-
-                    
-                    </section>
-				</div>
-			</section>
 
 
-
-		<!-- Footer -->
-			<div w3-include-html="_includes/footer.html"></div>
-
-        <script>
-        includeHTML();
-        </script>
-
-
-	</body>
-</html>
