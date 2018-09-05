@@ -108,10 +108,13 @@ def format_entry(bibentry):
             online += '&nbsp;<a href="{}">[code]</a>'.format(bibentry.fields['code'])
         if 'data' in bibentry.fields:
             online += '&nbsp;<a href="{}">[data]</a>'.format(bibentry.fields['data'])
+        if 'misc' in bibentry.fields:
+            online += '&nbsp;{}'.format(bibentry.fields['misc'])
         if 'pdf' in bibentry.fields:
             online += '&nbsp;<a href="{}">[pdf]</a>'.format(bibentry.fields['pdf'])
         if 'status' in bibentry.fields:
             online += '&nbsp;<b><font color="blue">({})</font></b>'.format(bibentry.fields['status'])
+
 
         #pubtype
         pubtype = ""
