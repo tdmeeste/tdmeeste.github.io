@@ -112,6 +112,8 @@ def format_entry(bibentry):
             online += '&nbsp;{}'.format(bibentry.fields['misc'])
         if 'pdf' in bibentry.fields:
             online += '&nbsp;<a href="{}">[pdf]</a>'.format(bibentry.fields['pdf'])
+        if 'slides' in bibentry.fields:
+            online += '&nbsp;<a href="{}">[slides]</a>'.format(bibentry.fields['slides'])
         if 'status' in bibentry.fields:
             online += '&nbsp;<b><font color="blue">({})</font></b>'.format(bibentry.fields['status'])
 
