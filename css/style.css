@@ -149,11 +149,11 @@
 	}
 
     .bottom-vspace05 {
-        margin-bottom: 5em;
+        margin-bottom: 2em;
     }
 
     .top-vspace05 {
-        margin-top: 5em;
+        margin-top: 1em;
     }
 
 
@@ -191,7 +191,7 @@
 
 	header.major {
 		text-align: center;
-		margin: 0 0 4em 0;
+		margin: 0 0 1em 0;
 	}
 
 		header.major h2 {
@@ -861,7 +861,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 2em 0 4em 0;
 	}
 
 		.wrapper.style1 {
