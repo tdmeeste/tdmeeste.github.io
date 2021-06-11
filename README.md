@@ -1,3 +1,3 @@
 # tdmeeste.github.io
 
-This is [my personal research homepage](https://tdmeeste.github.io/).
+This is [my personal research page](https://tdmeeste.github.io/).
