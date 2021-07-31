@@ -1,3 +1,132 @@
+
+
+
+
+@article{ManhaeveDumancic2021_DPL2,
+year = {2021},
+journal = {Artificial Intelligence},
+volume = {298},
+pages = {103504},
+issn = {0004-3702},
+doi = {https://doi.org/10.1016/j.artint.2021.103504},
+url = {https://www.sciencedirect.com/science/article/pii/S0004370221000552},
+title = {{Neural Probabilistic Logic Programming in DeepProbLog}},
+author = {Manhaeve, Robin and Duman\v{c}i\'c, Sebastijan and Kimmig, Angelika and \textbf{Demeester}, Thomas and De Raedt, Luc},
+abstract = {We introduce DeepProbLog, a neural probabilistic logic programming language that incorporates deep learning by means of neural predicates. We show how existing inference and learning techniques of the underlying probabilistic logic programming language ProbLog can be adapted for the new language. We theoretically and experimentally demonstrate that DeepProbLog supports (i) both symbolic and subsymbolic representations and inference, (ii) program induction, (iii) probabilistic (logic) programming, and (iv) (deep) learning from examples. To the best of our knowledge, this work is the first to propose a framework where general-purpose neural networks and expressive probabilistic-logical modeling and reasoning are integrated in a way that exploits the full expressiveness and strengths of both worlds and can be trained end-to-end based on examples.},
+keywords = {},
+pdf = {https://arxiv.org/pdf/1907.08194},
+pubtype={a1}
+}
+
+
+@inproceedings{verlinden2021,
+author = {Verlinden, Severine and Zaporojets, Klim and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
+title = {Injecting knowledge base information into end-to-end joint entity and relation extraction and coreference resolution},
+booktitle = {Findings of the ACL: ACL-IJCNLP 2021},
+month = {1--6 Aug.},
+year = {2021},
+address = {Bangkok, Thailand},
+pdf = {https://arxiv.org/pdf/2107.02286}
+}
+
+
+@article{zaporojets2021eswa,
+author = {Zaporojets, Klim and Bekoulis, Giannis and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
+title = {Solving arithmetic word problems by scoring equations with recursive neural networks},
+journal = {Expert Syst. Appl.},
+month = {15 Jul.},
+year = {2021},
+volume = {174},
+doi = {10.1016/j.eswa.2021.114704},
+pdf = {https://arxiv.org/pdf/2009.05639},
+pubtype={a1}
+}
+
+
+
+@inproceedings{hadifar2021naacl,
+author = {Hadifar, Amir and Labat, Sofie and Hoste, Veronique and Develder, Chris and Demeester, Thomas},
+title = {A million tweets are worth a few points: Tuning transformers for customer support tasks},
+booktitle = {Proc. Ann. Conf. North American Chapter Assoc. Comp. Linguist. (NAACL 2021)},
+month = {6--11 Jun.},
+year = {2021},
+address = {Online},
+doi = {10.18653/v1/2021.naacl-main.21},
+pdf = {https://arxiv.org/pdf/2104.07944}
+}
+
+
+
+@article{Zaporojets2021_DWIE,
+title = {DWIE: An entity-centric dataset for multi-task document-level information extraction},
+journal = {Information Processing \& Management},
+volume = {58},
+number = {4},
+pages = {102563},
+year = {2021},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2021.102563},
+author = {Klim Zaporojets and Johannes Deleu and Chris Develder and Thomas \textbf{Demeester}},
+keywords = {Named entity recognition, Entity linking, Relation extraction, Coreference resolution, Joint models, Graph Neural Networks},
+abstract = {This paper presents DWIE, the âDeutsche Welle corpus for Information Extractionâ, a newly created multi-task dataset that combines four main Information Extraction (IE) annotation subtasks: (i) Named Entity Recognition (NER), (ii) Coreference Resolution, (iii) Relation Extraction (RE), and (iv) Entity Linking. DWIE is conceived as an entity-centric dataset that describes interactions and properties of conceptual entities on the level of the complete document. This contrasts with currently dominant mention-driven approaches that start from the detection and classification of named entity mentions in individual sentences. Further, DWIE presented two main challenges when building and evaluating IE models for it. First, the use of traditional mention-level evaluation metrics for NER and RE tasks on entity-centric DWIEÂ dataset can result in measurements dominated by predictions on more frequently mentioned entities. We tackle this issue by proposing a new entity-driven metric that takes into account the number of mentions that compose each of the predicted and ground truth entities. Second, the document-level multi-task annotations require the models to transfer information between entity mentions located in different parts of the document, as well as between different tasks, in a joint learning setting. To realize this, we propose to use graph-based neural message passing techniques between document-level mention spans. Our experiments show an improvement of up to 5.5 F1 percentage points when incorporating neural graph propagation into our joint model. This demonstrates DWIEâs potential to stimulate further research in graph neural networks for representation learning in multi-task IE. We make DWIE publicly available at https://github.com/klimzaporojets/DWIE.},
+pdf = {https://arxiv.org/pdf/2009.12626},
+pubtype={a1}
+}
+
+
+@article{Vandewiele2021_AIM,
+  abstract     = {Information extracted from electrohysterography recordings could potentially prove to be an interesting additional source of information to estimate the risk on preterm birth. Recently, a large number of studies have reported near-perfect results to distinguish between recordings of patients that will deliver term or preterm using a public resource, called the Term/Preterm Electrohysterogram database. However, we argue that these results are overly optimistic due to a methodological flaw being made. In this work, we focus on one specific type of methodological flaw: applying over-sampling before partitioning the data into mutually exclusive training and testing sets. We show how this causes the results to be biased using two artificial datasets and reproduce results of studies in which this flaw was identified. Moreover, we evaluate the actual impact of over-sampling on predictive performance, when applied prior to data partitioning, using the same methodologies of related studies, to provide a realistic view of these methodologies' generalization capabilities. We make our research reproducible by providing all the code under an open license.},
+  articleno    = {101987},
+  author       = {Vandewiele, Gilles and Dehaene, Isabelle and Kovács, György and Sterckx, Lucas and Janssens, Olivier and Ongenae, Femke and De Backere, Femke and De Turck, Filip and Roelens, Kristien and Decruyenaere, Johan and Van Hoecke, Sofie and Demeester, Thomas},
+  issn         = {0933-3657},
+  journal      = {ARTIFICIAL INTELLIGENCE IN MEDICINE},
+  keywords     = {Medicine (miscellaneous),Artificial Intelligence,Preterm birth risk estimation,Over-sampling,Electrohysterography,SMOTE},
+  title        = {Overly optimistic prediction results on imbalanced data: a case study of flaws and benefits when applying over-sampling},
+  url          = {http://dx.doi.org/10.1016/j.artmed.2020.101987},
+  volume       = {111},
+  year         = {2021},
+  pubtype={a1}
+}
+
+
+@techreport{Labat2020_guidelines,
+  author       = {Labat, Sofie and \textbf{Demeester}, Thomas and Hoste, Veronique},
+  keywords     = {LT3,emotion analysis,natural language processing,customer service},
+  series       = {LT3 Technical Report – LT3 20-01},
+  title        = {Guidelines for annotating fine-grained emotion trajectories in customer service dialogues (version 1.0)},
+  year         = {2020},
+  pdf = {https://biblio.ugent.be/publication/8688684/file/8688991.pdf}
+}
+
+
+
+@inproceedings{jiang2020aacl,
+author = {Jiang, Yiwei and Zaporojets, Klim and Deleu, Johannes and Demeester, Thomas and Develder, Chris},
+title = {Recipe instruction semantics corpus (RISeC): Resolving semantic structure and zero anaphora in recipes},
+booktitle = {Proc. 1st Conf. Asia-Pacific Chapter of the Assoc. Comput. Linguist. and 10th Int. Joint Conf. Natural Lang. Processing (AACL-IJCNLP 2020)},
+month = {4--7 Dec.},
+year = {2020},
+pages = {821--826},
+address = {Online},
+pdf = {https://aclanthology.org/2020.aacl-main.82.pdf}
+}
+
+
+
+@article{Sterckx2020_clinicalIE,
+  abstract     = {This paper contributes to the pursuit of leveraging unstructured medical notes to structured clinical decision making. In particular, we present a pipeline for clinical information extraction from medical notes related to preterm birth, and discuss the main challenges as well as its potential for clinical practice. A large collection of medical notes, created by staff during hospitalizations of patients who were at risk of delivering preterm, was gathered and analyzed. Based on an annotated collection of notes, we trained and evaluated information extraction components to discover clinical entities such as symptoms, events, anatomical sites and procedures, as well as attributes linked to these clinical entities. In a retrospective study, we show that these are highly informative for clinical decision support models that are trained to predict whether delivery is likely to occur within specific time windows, in combination with structured information from electronic health records.},
+  author       = {Sterckx, Lucas and Vandewiele, Gilles and Dehaene, Isabelle and Janssens, Olivier and Ongenae, Femke and De Backere, Femke and De Turck, Filip and Roelens, Kristien and Decruyenaere, Johan and Van Hoecke, Sofie and \textbf{Demeester}, Thomas},
+  journal      = {Journal of Biomedical Informatics},
+  keywords     = {SYSTEM,TEXT,HISTORY,Clinical information extraction,Clinical decision support models,Preterm birth,Text mining},
+  title        = {Clinical information extraction for preterm birth risk prediction},
+  url          = {http://dx.doi.org/10.1016/j.jbi.2020.103544},
+  volume       = {110},
+  year         = {2020},
+  pdf = {https://biblio.ugent.be/publication/8680098/file/8680099.pdf},
+  pubtype = {a1}
+}
+
+
 @InProceedings{Demeester2020,
 author = {Demeester, Thomas},
 publisher = {AAAI Press},
@@ -7,6 +136,8 @@ title = {System Identification with Time-Aware Neural Sequence Models},
 pdf = {https://arxiv.org/pdf/1911.09431.pdf},
 code = {https://github.com/tdmeeste/TimeAwareRNN}
 }
+
+
 
 
 
