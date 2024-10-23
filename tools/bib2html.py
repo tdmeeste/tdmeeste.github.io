@@ -12,10 +12,16 @@ from bs4 import BeautifulSoup
 import os
 
 bibfolder = 'bib'
-bibfile_EE = os.path.join(bibfolder, 'TD_electrical_engineering.bib')
-bibfile_CS = os.path.join(bibfolder, 'TD_computer_science.bib')
+#bibfile_EE = os.path.join(bibfolder, 'TD_electrical_engineering.bib')
+#bibfile_CS = os.path.join(bibfolder, 'TD_computer_science.bib')
+#bibfile_2021 = os.path.join(bibfolder, '2021.bib')
+#bibfile_2022 = os.path.join(bibfolder, '2022.bib')
+#bibfile_2023 = os.path.join(bibfolder, '2023.bib')
+#bibfile_2024 = os.path.join(bibfolder, '2024.bib')
 
-bibfiles = [("EE", bibfile_EE), ("CS", bibfile_CS)]
+
+#bibfiles = [("EE", bibfile_EE), ("CS", bibfile_CS)]
+bibfiles = [os.path.join(bibfolder, f) for f in os.listdir(bibfolder) if f.endswith('.bib')]
 
 
 def strip_braces(s):
@@ -142,62 +148,120 @@ def format_entry(bibentry):
     return result
 
 
-def format_year(yyyy, domain):
+def format_year(yyyy, domain=''):
     result = '<a name=bib{}{}></a>'.format(domain, yyyy)
     result += '<div class="column top-vspace05"><header><h3>{}</h3></header></div>'.format(yyyy)
     return result
 
 
+#write a loop over all bib files, first storing them in a list, obtaining the year, and then writing the html file, ordered by year from newest to oldest:
 total_a1 = 0
-for domain, bibfile in bibfiles:
+bib_items = []
+for bibfile in bibfiles:
     # Load the list of publications from bib file
     parser = pybtex.database.input.bibtex.Parser(encoding="UTF-8")
-
     bib_data = parser.parse_file(bibfile)
+    bib_items.extend([bibentry for id, bibentry in bib_data.entries.items()])
 
-    pybtex_html_backend = pybtex.plugin.find_plugin('pybtex.backends', 'html')()
+print('found', len(bib_items), 'entries in total')
+bib_items_per_year = {}
+for bibentry in bib_items:
+    if not 'year' in bibentry.fields:
+        print('\nWarning: no "year" field - ignore entry \n', bibentry)
+    else:
+        year = int(''.join([c for c in bibentry.fields['year'] if c.isdigit()]))
+        if year not in bib_items_per_year:
+            bib_items_per_year[year] = []
+        bib_items_per_year[year].append(bibentry)
 
-    html_str = ""
+for year in bib_items_per_year:
+    print(year)
+    #for bib_entry in bib_items_per_year[year]:
+    #    print(bib_entry)
 
-    current_year = 2100
-    is_first = True
 
-    for id, bibentry in bib_data.entries.items():
+#convert to html
+pybtex_html_backend = pybtex.plugin.find_plugin('pybtex.backends', 'html')()
+html_str = ""
+sorted_years = sorted(bib_items_per_year.keys(), reverse=True)
+for year in sorted_years:
+    html_str += '\n' + format_year(year)
+    html_str += '\n<div class="column"><ul class="alt">'
+
+    for bibentry in bib_items_per_year[year]:
         if 'pubtype' in bibentry.fields and bibentry.fields['pubtype'] == 'a1':
             total_a1 += 1
 
-        if not 'year' in bibentry.fields:
-            print('\nWarning: no "year" field - ignore entry \n', bibentry)
-        else:
-            year = int(bibentry.fields['year'])
-            if year > current_year:
-                print('\nWarning: invalid "year" field - make sure input bib file ordered from newest to oldest.')
-                print('ignore entry \n', bibentry)
-                #assume ordered from newest to oldest
-            elif year < current_year:
-                #close unordered list if not first
-                if is_first:
-                    is_first = False
-                else:
-                    html_str += '\n</ul></div>'
+        entry_html = format_entry(bibentry)
+        html_str += '\n' + entry_html
 
-                #add new year
-                year_html = format_year(year, domain)
-                html_str += '\n' + year_html
-                current_year = year
-                #open new unordered list
-                html_str += '\n<div class="column"><ul class="alt">'
-
-            #own formatting for simplicity
-            entry_html = format_entry(bibentry)
-            html_str += '\n' + entry_html
-
-    #at end: close div and ul
     html_str += '\n</ul></div>'
 
+with open('_includes/biblio_all.html', 'w') as htmlfile:
+    htmlfile.write(html_str)
+    print('wrote', '_includes/biblio_all.html')
 
-    with open('_includes/biblio_%s.html' % domain, 'w') as htmlfile:
-        htmlfile.write(html_str)
-#        htmlfile.write(BeautifulSoup(html_str, 'html.parser').prettify())
+
+
+
+
+
+
+
+
+
+
+# total_a1 = 0
+# for domain, bibfile in bibfiles:
+#     # Load the list of publications from bib file
+#     parser = pybtex.database.input.bibtex.Parser(encoding="UTF-8")
+
+#     bib_data = parser.parse_file(bibfile)
+
+#     pybtex_html_backend = pybtex.plugin.find_plugin('pybtex.backends', 'html')()
+
+#     html_str = ""
+
+#     current_year = 2100
+#     is_first = True
+
+#     for id, bibentry in bib_data.entries.items():
+#         if 'pubtype' in bibentry.fields and bibentry.fields['pubtype'] == 'a1':
+#             total_a1 += 1
+
+#         if not 'year' in bibentry.fields:
+#             print('\nWarning: no "year" field - ignore entry \n', bibentry)
+#         else:
+#             year = int(bibentry.fields['year'])
+#             if year > current_year:
+#                 print('\nWarning: invalid "year" field - make sure input bib file ordered from newest to oldest.')
+#                 print('ignore entry \n', bibentry)
+#                 #assume ordered from newest to oldest
+#             elif year < current_year:
+#                 #close unordered list if not first
+#                 if is_first:
+#                     is_first = False
+#                 else:
+#                     html_str += '\n</ul></div>'
+
+#                 #add new year
+#                 year_html = format_year(year, domain)
+#                 html_str += '\n' + year_html
+#                 current_year = year
+#                 #open new unordered list
+#                 html_str += '\n<div class="column"><ul class="alt">'
+
+#             #own formatting for simplicity
+#             entry_html = format_entry(bibentry)
+#             html_str += '\n' + entry_html
+
+#     #at end: close div and ul
+#     html_str += '\n</ul></div>'
+
+
+#     with open('_includes/biblio_%s.html' % domain, 'w') as htmlfile:
+#         htmlfile.write(html_str)
+#         print('wrote', '_includes/biblio_%s.html' % domain)
+# #        htmlfile.write(BeautifulSoup(html_str, 'html.parser').prettify())
 
 print('total a1 papers: ', total_a1)
