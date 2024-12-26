@@ -1110,3 +1110,51 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* === PhD Students Section === */
+#phd-students {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-align: left; /* Ensures the content is left-aligned */
+  }
+  
+  #phd-students h2 {
+	margin-bottom: 1rem;
+	/* Style to match your existing page headings */
+  }
+  
+  /* Container for each PhD student: image + details side by side */
+  .phd-student {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 1.5rem; /* Spacing between different student entries */
+  }
+  
+  /* The small portrait on the left */
+  .phd-student .portrait {
+	width: 48px;
+	height: 48px;
+	object-fit: cover;
+	margin-right: 0.75rem; /* Adjust spacing between the image and text */
+	border-radius: 4px;    /* Slightly rounded corners */
+  }
+  
+  /* Details on the right */
+  .phd-student-details {
+	line-height: 1.3; /* Slightly tighter line spacing */
+  }
+  
+  .phd-student-details h4 {
+	margin: 0;
+	font-weight: bold;
+  }
+  
+  .phd-student-details .promotors {
+	margin: 0.3rem 0 0;
+	font-weight: normal;
+  }
+  
+  .phd-student-details .title {
+	margin: 0.3rem 0 0;
+	font-style: italic; /* Optional: remove or change as needed */
+  }
