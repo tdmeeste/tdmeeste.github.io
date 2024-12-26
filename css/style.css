@@ -1112,7 +1112,7 @@
 		}
 
 /* === PhD Students Section === */
-#phd-students {
+  #phd-students {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	text-align: left; /* Ensures the content is left-aligned */
@@ -1158,3 +1158,5 @@
 	margin: 0.3rem 0 0;
 	font-style: italic; /* Optional: remove or change as needed */
   }
+
+
