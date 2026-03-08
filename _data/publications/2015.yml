@@ -1,0 +1,19 @@
+- authors: "Cedric De Boom, Steven Van Canneyt, Steven Bohez, Thomas Demeester, Bart Dhoedt"
+  title: "Learning semantic similarity for very short texts"
+  venue: "Proc. IEEE International Conference on Data Mining Workshop (ICDMW)"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Johannes Deleu, Chris Develder"
+  title: "Ghent University-IBCN participation in the TAC KBP 2015 cold start slot filling task"
+  venue: "Proc. 8th Text Analysis Conference (TAC 2015)"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Johannes Deleu, Chris Develder"
+  title: "When topic models disagree: keyphrase extraction with muliple topic models"
+  venue: "Proc. 24th International Conference on World Wide Web (WWW 2015)"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Johannes Deleu, Chris Develder"
+  title: "Topical word importance for fast keyphrase extraction"
+  venue: "Proc. 24th International Conference on World Wide Web (WWW 2015)"
+
+- authors: "Thomas Demeester, Dolf Trieschnigg, Ke Zhou, Dong Nguyen, Djoerd Hiemstra"
+  title: "FedWeb greatest hits: presenting the new test collection for federated web search"
+  venue: "Proc. 24th International Conference on World Wide Web (WWW 2015)"

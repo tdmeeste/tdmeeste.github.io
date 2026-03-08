@@ -1,0 +1,79 @@
+- authors: "Semere Kiros Bitew, Amir Hadifar, Lucas Sterckx, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "Learning to reuse distractors to support multiple choice question generation in education"
+  venue: "IEEE Trans. Learn. Technol."
+  a1: true
+  links:
+    pdf: "https://arxiv.org/pdf/2210.13964"
+
+- authors: "Klim Zaporojets, Johannes Deleu, Yiwei Jiang, Thomas Demeester, Chris Develder"
+  title: "Towards consistent document-level entity linking: Joint Models for entity linking and coreference resolution"
+  venue: "Proc. 60th Annual Meet. Assoc. Comput. Linguist. (ACL 2022)"
+  links:
+    online: "https://aclanthology.org/2022.acl-short.88/"
+    pdf: "https://aclanthology.org/2022.acl-short.88.pdf"
+
+- authors: "Yiwei Jiang, Amir Hadifar, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "UGent-T2K at the 2nd DialDoc shared task: A retrieval-focused dialog system grounded in multiple documents"
+  venue: "Proc. DialDoc Workshop at ACL 2022"
+  links:
+    pdf: "https://aclanthology.org/2022.dialdoc-1.12.pdf"
+
+- authors: "Sofie Labat, Naomi Ackaert, Thomas Demeester, Veronique Hoste"
+  title: "Variation in the expression and annotation of emotions: a Wizard of Oz pilot study"
+  venue: "Proc. 1st Workshop Perspectivist Approaches to NLP @LREC2022 (NLPerspectives 2022)"
+  links:
+    online: "https://aclanthology.org/2022.nlperspectives-1.9/"
+    pdf: "https://aclanthology.org/2022.nlperspectives-1.9.pdf"
+
+- authors: "Jens-Joris Decorte, Jeroen Van Hautte, Johannes Deleu, Chris Develder, T. Demeester"
+  title: "Design of negative sampling strategies for distantly supervised skill extraction"
+  venue: "Proc. 2nd Workshop Recomm. Sys. Hum. Resour. at RecSys 2022 (RecSys in HR 2022)"
+  links:
+    pdf: "https://arxiv.org/pdf/2209.05987"
+
+- authors: "Sofie Labat, Amir Hadifar, Thomas Demeester, Veronique Hoste"
+  title: "An emotional journey: Detecting emotion trajectories in Dutch customer service dialogues"
+  venue: "Proc. 8th Workshop Noisy User-generated Text (W-NUT 2022) at COLING 2022"
+  links:
+    online: "https://aclanthology.org/2022.wnut-1.12/"
+    pdf: "https://aclanthology.org/2022.wnut-1.12.pdf"
+
+- authors: "Klim Zaporojets, Lucie-Aimee Kaffee, Thomas Demeester, Chris Develder, Isabelle Augenstein"
+  title: "TempEL: Linking dynamically evolving and newly emerging entities"
+  venue: "Proc. 36th Conf. Neural Inf. Process. Sys. (NeurIPS 2022)"
+  links:
+    online: "https://openreview.net/forum?id=vrnqr3PG4yB"
+    pdf: "https://proceedings.neurips.cc/paper_files/paper/2022/file/0c3464f16c854d395b880cf9e7bcaf2f-Paper-Datasets_and_Benchmarks.pdf"
+
+- authors: "Paloma Rabaey, Cedric De Boom, Thomas Demeester"
+  title: "Neural Bayesian network understudy"
+  venue: "Proc. Workshop Causal Mach. Learn. Real-World Impact (CML4Impact 2022) at NeurIPS 2022"
+  links:
+    pdf: "https://arxiv.org/pdf/2211.08243"
+
+- authors: "Maarten De Raedt, Frederic Godin, Chris Develder, Thomas Demeester"
+  title: "Robustifying sentiment classification by maximally exploiting few counterfactuals"
+  venue: "Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2022)"
+  links:
+    online: "https://aclanthology.org/2022.emnlp-main.783"
+    pdf: "https://aclanthology.org/2022.emnlp-main.783.pdf"
+
+- authors: "Henri Arno, Klaas Mulier, Joke Baeck, Thomas Demeester"
+  title: "Next-Year Bankruptcy Prediction from Textual Data: Benchmark and Baselines"
+  venue: "Proceedings of the Fourth Workshop on Financial Technology and Natural Language Processing (FinNLP)"
+  links:
+    online: "https://aclanthology.org/2022.finnlp-1.25"
+    pdf: "https://aclanthology.org/2022.finnlp-1.25.pdf"
+
+- authors: "Ruben Janssens, Pieter Wolfert, Thomas Demeester, Tony Belpaeme"
+  title: '"Cool glasses, where did you get them?": Generating Visually Grounded Conversation Starters for Human-Robot Dialogue'
+  venue: "Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction"
+  links:
+    pdf: "https://biblio.ugent.be/publication/8747513/file/8747514.pdf"
+
+- authors: "Francois Remy, Kris Demuynck, Thomas Demeester"
+  title: "BioLORD: Learning Ontological Representations from Definitions for Biomedical Concepts and their Textual Descriptions"
+  venue: "Findings of the Association for Computational Linguistics: EMNLP 2022"
+  links:
+    online: "https://aclanthology.org/2022.findings-emnlp.104"
+    pdf: "https://aclanthology.org/2022.findings-emnlp.104.pdf"

@@ -1,0 +1,26 @@
+- authors: "P. Minervini, Thomas Demeester, T. Rocktaschel, S. Riedel"
+  title: "Adversarial sets for regularising neural link predictors"
+  venue: "Proc. Conference on Uncertainty in Artificial Intelligence (UAI 2017)"
+  links:
+    code: "https://github.com/uclmr/inferbeddings"
+    pdf: "https://arxiv.org/pdf/1707.07596"
+
+- authors: "Cedric De Boom, Rohan Agrawal, Samantha Hansen, Esh Kumar, Romain Yon, Ching-Wei Chen, Thomas Demeester, Bart Dhoedt"
+  title: "Large-scale user modeling with recurrent neural networks for music discovery on multiple time scales"
+  venue: "Multimedia Tools and Applications"
+  a1: true
+  links:
+    online: "https://link.springer.com/article/10.1007/s11042-017-5121-z"
+    pdf: "https://arxiv.org/pdf/1708.06520"
+
+- authors: "Lucas Sterckx, J. Naradowsky, B. Byrne, Thomas Demeester, Chris Develder"
+  title: "Break it down for me : a study in automated lyric annotation"
+  venue: "Proc. Conference on Empirical Methods in Natural Language Processing (EMNLP 2017)"
+  links:
+    pdf: "https://arxiv.org/pdf/1708.03492"
+
+- authors: "Ioannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Reconstructing the house from the ad: Structured prediction on real estate classifieds"
+  venue: "Proc. 15th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2017)"
+  links:
+    pdf: "http://www.aclweb.org/anthology/E17-2044"

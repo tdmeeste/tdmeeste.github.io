@@ -1,0 +1,130 @@
+- authors: "Amir Hadifar, Semere Kiros Bitew, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "EduQG: A multi-format multiple-choice dataset for the educational domain"
+  venue: "IEEE Access"
+  a1: true
+  links:
+    pdf: "https://arxiv.org/pdf/2210.06104"
+
+- authors: "Yiwei Jiang, Klim Zaporojets, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "CookDial: A dataset for task-oriented dialogs grounded in procedural documents"
+  venue: "Appl. Intell."
+  a1: true
+  links:
+    pdf: "https://arxiv.org/pdf/2206.08723"
+
+- authors: "Quanqi Du, Sofie Labat, Thomas Demeester, Veronique Hoste"
+  title: "Unimodalities count as perspectives in multimodal emotion annotation"
+  venue: "Proceedings of the 2nd Workshop on Perspectivist Approaches to NLP (NLPerspectives 2023), co-located with the 26th European Conference on Artificial Intelligence (ECAI 2023)"
+  links:
+    pdf: "https://ceur-ws.org/Vol-3494/paper14.pdf"
+
+- authors: "Alexander Decruyenaere, Paloma Rabaey, Christiaan Polet, Johan Decruyenaere, Stijn Vansteelandt, Thomas Demeester, Heidelinde Dehaene"
+  title: "Synthetic Data: Can We Trust Statistical Estimators?"
+  venue: "Deep Generative Models for Health workshop at NeurIPS 2023"
+  links:
+    pdf: "https://openreview.net/pdf?id=9cHt8szDMj"
+
+- authors: "Felix Koulischer, Cedric Goemaere, Tom Van Der Meersch, Johannes Deleu, Thomas Demeester"
+  title: "Exploring the Temperature-Dependent Phase Transition in Modern Hopfield Networks"
+  venue: "Associative Memory & Hopfield Networks workshop at NeurIPS 2023"
+  links:
+    pdf: "https://openreview.net/pdf?id=AXiMq2k4cb"
+
+- authors: "Cedric Goemaere, Johannes Deleu, Thomas Demeester"
+  title: "Accelerating Hierarchical Associative Memory: A Deep Equilibrium Approach"
+  venue: "Associative Memory & Hopfield Networks workshop at NeurIPS 2023"
+  links:
+    pdf: "https://openreview.net/pdf?id=Vmndp6HnfR"
+
+- authors: "Tom Van Der Meersch, Johannes Deleu, Thomas Demeester"
+  title: "Training a Hopfield Variational Autoencoder with Equilibrium Propagation"
+  venue: "Associative Memory & Hopfield Networks workshop at NeurIPS 2023"
+  links:
+    pdf: "https://openreview.net/forum?id=qvD4lx2iV0"
+
+- authors: "Karel D'Oosterlinck, Thomas Demeester, Chris Develder, Christopher Potts"
+  title: "Flexible model interpretability through natural language model editing"
+  venue: "Proc. 6th BlackboxNLP Workshop: Anal. and Interpret. Neural Netw. for NLP (BlackboxMLP 2023) at EMNLP 2023"
+  links:
+    pdf: "https://arxiv.org/pdf/2311.10905"
+
+- authors: "Maarten De Raedt, Semere Kiros Bitew, Frederic Godin, Thomas Demeester, Chris Develder"
+  title: "Zero-shot cross-lingual sentiment classification under distribution shift: An exploratory study"
+  venue: "Proc. 3rd Multiling. Represent. Learn. Workshop (MRL 2023) at EMNLP 2023"
+  links:
+    online: "https://aclanthology.org/2023.mrl-1.5/"
+    pdf: "https://aclanthology.org/2023.mrl-1.5.pdf"
+
+- authors: "Jens-Joris Decorte, Jeroen Van Haute, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "Career path prediction using resume representation learning and skill-based matching"
+  venue: "Proc. 3rd Workshop Recomm. Syst. Human Resour. (RecSys in HR 2023) at ACM RecSys 2023"
+  links:
+    pdf: "https://ceur-ws.org/Vol-3490/RecSysHR2023-paper_1.pdf"
+
+- authors: "Karel D'Oosterlinck, Semere Kiros Bitew, Brandon Papineau, Christopher Potts, Thomas Demeester, Chris Develder"
+  title: "CAW-coref: Conjunction-aware word-level coreference resolution"
+  venue: "Proc. 6th Workshop Comput. Models Ref. Anaphora and Coref. (CRAC 2023) at EMNLP 2023"
+  links:
+    online: "https://aclanthology.org/2023.crac-main.2/"
+    pdf: "https://aclanthology.org/2023.crac-main.2.pdf"
+
+- authors: "Semere Kiros Bitew, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "Distractor generation for multiple-choice questions with predictive prompting and large language models"
+  venue: "Proc. 1st Int. Tut. Workshop on Responsible Knowledge Discovery in Education (RKDE 2023) at ECML-PKDD 2023"
+  links:
+    pdf: "https://arxiv.org/pdf/2307.16338"
+
+- authors: "Jens-Joris Decorte, Severine Verlinden, Jeroen Van Hautte, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "Extreme multi-label skill extraction training using large language models"
+  venue: "Proc. Int. Workshop AI For Human Resour. Public Employ. Serv. (AI4HR & PES) at ECML-PKDD 2023"
+  links:
+    pdf: "https://arxiv.org/pdf/2307.10778"
+
+- authors: "Semere Kiros Bitew, Johannes Deleu, A. Seza Dogruoz, Chris Develder, Thomas Demeester"
+  title: "Learning from partially annotated data: Example-aware creation of gap-filling exercises for language learning"
+  venue: "Proc. 18th Workshop Innovative Use of NLP for Building Educational Applications (BEA 2023) at ACL 2023"
+  links:
+    online: "https://aclanthology.org/2023.bea-1.51"
+    pdf: "https://aclanthology.org/2023.bea-1.51.pdf"
+
+- authors: "Francois Remy, Kris Demuynck, Thomas Demeester"
+  title: "Automatic Glossary of Clinical Terminology: a Large-Scale Dictionary of Biomedical Definitions Generated from Ontological Knowledge"
+  venue: "The 22nd Workshop on Biomedical Natural Language Processing and BioNLP Shared Tasks"
+  links:
+    online: "https://aclanthology.org/2023.bionlp-1.23"
+    pdf: "https://aclanthology.org/2023.bionlp-1.23.pdf"
+
+- authors: "Maarten De Raedt, Frederic Godin, Thomas Demeester, Chris Develder"
+  title: "IDAS: Intent Discovery with Abstractive Summarization"
+  venue: "Proc. 5th Workshop on NLP for Conversational AI (NLP4ConvAI 2023) at ACL 2023"
+  links:
+    online: "https://aclanthology.org/2023.nlp4convai-1.7"
+    pdf: "https://aclanthology.org/2023.nlp4convai-1.7.pdf"
+
+- authors: "Karel D'Oosterlinck, Francois Remy, Johannes Deleu, Thomas Demeester, Chris Develder, Klim Zaporojets, Aneiss Ghodsi, Simon Ellershaw, Jack Collins, Christopher Potts"
+  title: "BioDEX: Large-scale biomedical adverse drug event extraction for real-world pharmacovigilance"
+  venue: "Findings of the ACL: EMNLP 2023"
+  links:
+    online: "https://aclanthology.org/2023.findings-emnlp.896/"
+    pdf: "https://aclanthology.org/2023.findings-emnlp.896.pdf"
+
+- authors: "Francois Remy, Alfiya Khabibullina, Thomas Demeester"
+  title: "Detecting Idiomatic Multiword Expressions in Clinical Terminology using Definition-Based Representation Learning"
+  venue: "Proceedings of the 19th Workshop on Multiword Expressions (MWE 2023)"
+  links:
+    online: "https://aclanthology.org/2023.mwe-1.11"
+    pdf: "https://aclanthology.org/2023.mwe-1.11.pdf"
+
+- authors: "Amir Hadifar, Semere Kiros Bitew, Johannes Deleu, Veronique Hoste, Chris Develder, Thomas Demeester"
+  title: "Diverse content selection for educational question generation"
+  venue: "Proc. 17th Conf. Eur. Chapter Associat. Comput. Linguist.: Stud. Research Workshop (EACL SRW 2023)"
+  links:
+    online: "https://aclanthology.org/2023.eacl-srw.13"
+    pdf: "https://aclanthology.org/2023.eacl-srw.13.pdf"
+
+- authors: "Henri Arno, Klaas Mulier, Joke Baeck, Thomas Demeester"
+  title: "From Numbers to Words: Multi-Modal Bankruptcy Prediction Using the ECL Dataset"
+  venue: "Proceedings of the Sixth Workshop on Financial Technology and Natural Language Processing"
+  links:
+    online: "https://aclanthology.org/2023.finnlp-2.2"
+    pdf: "https://aclanthology.org/2023.finnlp-2.2.pdf"

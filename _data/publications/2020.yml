@@ -1,0 +1,19 @@
+- authors: "Yiwei Jiang, Klim Zaporojets, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Recipe instruction semantics corpus (RISeC): Resolving semantic structure and zero anaphora in recipes"
+  venue: "Proc. 1st Conf. Asia-Pacific Chapter of the Assoc. Comput. Linguist. and 10th Int. Joint Conf. Natural Lang. Processing (AACL-IJCNLP 2020)"
+  links:
+    pdf: "https://aclanthology.org/2020.aacl-main.82.pdf"
+
+- authors: "Lucas Sterckx, Gilles Vandewiele, Isabelle Dehaene, Olivier Janssens, Femke Ongenae, Femke De Backere, Filip De Turck, Kristien Roelens, Johan Decruyenaere, Sofie Van Hoecke, Thomas Demeester"
+  title: "Clinical information extraction for preterm birth risk prediction"
+  venue: "Journal of Biomedical Informatics"
+  a1: true
+  links:
+    pdf: "https://biblio.ugent.be/publication/8680098/file/8680099.pdf"
+
+- authors: "Thomas Demeester"
+  title: "System Identification with Time-Aware Neural Sequence Models"
+  venue: "34th AAAI Conference on Artificial Intelligence"
+  links:
+    code: "https://github.com/tdmeeste/TimeAwareRNN"
+    pdf: "https://arxiv.org/pdf/1911.09431.pdf"

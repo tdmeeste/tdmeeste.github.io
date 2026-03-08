@@ -1,0 +1,19 @@
+- authors: "Daniel De Zutter, Thomas Demeester"
+  title: "Transmission line modeling of coupled lines in a semiconducting substrate"
+  venue: "Proc. VI Iberian Meeting on Computational Electromagnetism"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Quasi-TM transmission line parameters of coupled lossy lines based on the Dirichlet to Neumann boundary operator"
+  venue: "IEEE Transactions on Microwave Theory and Techniques"
+  a1: true
+  links:
+    pdf: "files/pubs/QuasiTM_MTT_Demeester2008.pdf"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Design and simulation of on-chip lossy transmission line pairs"
+  venue: "Proc. IEEE Workshop on Signal Propagation on Interconnects (SPI 2008)"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Modeling the broadband inductive and resistive behavior of composite conductors"
+  venue: "IEEE Microwave and Wireless Components Letters"
+  a1: true

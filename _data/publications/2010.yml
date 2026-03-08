@@ -1,0 +1,13 @@
+- authors: "Thomas Demeester, Dries Vande Ginste, Daniel De Zutter"
+  title: "Accurate study of the electromagnetic and circuit behavior of finite conducting wedges and interconnects with arbitrary cross-sections"
+  venue: "proc. IEEE 19th Conference on Electrical Performance of Electronic Packaging and Systems (EPEPS 2010)"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Fields at a finite conducting wedge and applications in interconnect modeling"
+  venue: "IEEE Transactions on Microwave Theory and Techniques"
+  a1: true
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Construction of the dirichlet to neumann boundary operator for triangles and applications in the analysis of polygonal conductors"
+  venue: "IEEE Transactions on Microwave Theory and Techniques"
+  a1: true

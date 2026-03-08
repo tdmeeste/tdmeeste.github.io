@@ -1,0 +1,21 @@
+		<!-- Short bio -->
+			<section id="bio" class="wrapper style1">
+                <div class="container">
+                    <header class="major">
+                        <h2>Short bio & research interests</h2>
+                    </header>
+					<div class="row">
+						<div class="3u">
+							<section>
+								<a href="#" class="image left"><img src="images/thomas2.jpg" alt="" width="150"/></a>
+							</section>
+						</div>
+						<div class="8u">
+							<section>
+								{% capture bio_content %}{% include bio.md %}{% endcapture %}
+								{{ bio_content | markdownify }}
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>

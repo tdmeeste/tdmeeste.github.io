@@ -1,0 +1,44 @@
+- authors: "Ke Zhou, Thomas Demeester, Dong Nguyen, Djoerd Hiemstra, Dolf Trieschnigg"
+  title: "Aligning Vertical Collection Relevance with User Intent"
+  venue: "Proc. 23rd ACM Conference on Information and Knowledge Management (CIKM 2014)"
+
+- authors: "Thomas Demeester, R Aly, D Hiemstra, D Nguyen, D Trieschnigg, Chris Develder"
+  title: "Exploiting user disagreement for web search evaluation: an experimental approach"
+  venue: "Proc. International Conference on Web Search and Data Mining (WSDM 2014)"
+
+- authors: "R Aly, Thomas Demeester, S Robertson"
+  title: "Probabilistic models in IR and their relationships"
+  venue: "Information Retrieval"
+  a1: true
+
+- authors: "Thomas Demeester, Dolf Trieschnigg, Dong Nguyen, Ke Zhou, Djoerd Hiemstra"
+  title: "Overview of the TREC 2014 federated web search track"
+  venue: "Proc. Text Retrieval Conference (TREC 2014)"
+
+- authors: "Matthias Feys, Thomas Demeester, Blaz Fortuna, Johannes Deleu, Chris Develder"
+  title: "On the robustness of event detection evaluation: a case study"
+  venue: "Proc. Forum for Information Retrieval Evaluation"
+
+- authors: "Laurent Mertens, Thomas Demeester, Johannes Deleu, Matthias Feys, Chris Develder"
+  title: "Entity linking: test collections revisited"
+  venue: "Proc. Forum for Information Retrieval Evaluation"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Johannes Deleu, Chris Develder"
+  title: "Using active learning and semantic clustering for noise reduction in distant supervision"
+  venue: "Proc. 4th Workshop on Automated Base Construction (AKBC 2014)"
+
+- authors: "Matthias Feys, Lucas Sterckx, Laurent Mertens, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Ghent University-IBCN participation in TAC-KBP 2014 slot filling and cold start tasks"
+  venue: "Proc. 7th Text Analysis Conference (TAC 2014)"
+
+- authors: "Blaz Fortuna, Thomas Demeester, Chris Develder"
+  title: "Towards large-scale event detection and extraction from news"
+  venue: "Proc. Workshop on Large-scale Online Learning and Decision Making"
+
+- authors: "Steven Van Canneyt, Matthias Feys, Steven Schockaert, Thomas Demeester, Chris Develder, Bart Dhoedt"
+  title: "Detecting newsworthy topics in Twitter"
+  venue: "Proc. SNOW 2014 Data Challenge"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Johannes Deleu, Laurent Mertens, Chris Develder"
+  title: "Assessing quality of unsupervised topics in song lyrics"
+  venue: "Proc. 36th European Conference on Information Retrieval (ECIR 2014)"

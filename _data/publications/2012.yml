@@ -1,0 +1,35 @@
+- authors: "Laurent Mertens, Thomas Demeester, Johannes Deleu, Piet Demeester, Chris Develder"
+  title: "UGent participation in the TAC 2012 entity-linking task"
+  venue: "Text Analysis Conference, Proceedings"
+
+- authors: "Thong Hoang Van Duc, Thomas Demeester, Johannes Deleu, Piet Demeester, Chris Develder"
+  title: "UGent participation in the Microblog Track 2012"
+  venue: "Proc. Text Retrieval Conference (TREC 2012)"
+
+- authors: "Thomas Demeester, Dong Nguyen, Dolf Trieschnigg, Chris Develder, Djoerd Hiemstra"
+  title: "What snippets say about pages in federated web search"
+  venue: "Proc. 8th Asian Information Retrieval Societies Conference (AIRS 2012), LNCS 7675"
+
+- authors: "Dong Nguyen, Thomas Demeester, Dolf Trieschnigg, Djoerd Hiemstra"
+  title: "Federated search in the wild: the combined power of over a hundred search engines"
+  venue: "Proc. 21st ACM Conference on Information and Knowledge Management (CIKM 2012)"
+
+- authors: "Bruno Van Den Bossche, Brecht Vermeulen, Johannes Deleu, Thomas Demeester, Piet Demeester"
+  title: "MediaHaven: multimedia asset management with integrated NER and categorization"
+  venue: "Proc. 12th Dutch-Belgian Information Retrieval Workshop (DIR 2012)"
+
+- authors: "Johannes Deleu, An De Moor, Thomas Demeester, Brecht Vermeulen, Piet Demeester"
+  title: "Named entity recognition on flemish audio-visual and news-paper archives"
+  venue: "Proc. 12th Dutch-Belgian Information Retrieval Workshop (DIR 2012)"
+
+- authors: "Stijn Vandamme, Tim Wauters, Thomas Demeester, Filip De Turck"
+  title: "Implementation and evaluation of query filtering in a role ontology-enhanced search engine"
+  venue: "Proc. 12th Dutch-Belgian Information Retrieval Workshop (DIR 2012)"
+
+- authors: "Thong Hoang Van Duc, Thomas Demeester, Chris Develder, Hyoseop Shin"
+  title: "Effectiveness of learning to rank for finding user similarity in social media"
+  venue: "Proc. 12th Dutch-Belgian Information Retrieval Workshop (DIR 2012)"
+
+- authors: "Laurent Mertens, Thomas Demeester, Johannes Deleu, Chris Develder, Piet Demeester"
+  title: "Context-based person identification for news collections"
+  venue: "Proc. 12th Dutch-Belgian Information Retrieval Workshop (DIR 2012)"

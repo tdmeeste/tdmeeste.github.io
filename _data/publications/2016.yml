@@ -1,0 +1,58 @@
+- authors: "Nasrin Sadeghianpourhamami, Thomas Demeester, Dries Benoit, Matthias Strobbe, Chris Develder"
+  title: "Modeling and analysis of residential flexibility: timing of white good usage"
+  venue: "Applied Energy"
+  a1: true
+
+- authors: "Thomas Demeester, T. Rocktaschel, S. Riedel"
+  title: "Lifted rule injection for relation embeddings"
+  venue: "Proc. Conference on Empirical Methods in Natural Language Processing (EMNLP 2016)"
+  links:
+    pdf: "https://arxiv.org/pdf/1606.08359"
+
+- authors: "Thomas Demeester, T. Rocktaschel, S. Riedel"
+  title: "Regularizing relation representations by first-order implications"
+  venue: "Proc. 5th Workshop on Automated Base Construction (AKBC 2016)"
+  links:
+    pdf: "https://biblio.ugent.be/publication/8541779/file/8541782.pdf"
+
+- authors: "Cedric De Boom, Steven Van Canneyt, Thomas Demeester, Bart Dhoedt"
+  title: "Representation learning for very short texts using weighted word embedding aggregation"
+  venue: "Pattern Recognition Letters"
+  a1: true
+  links:
+    online: "https://dl.acm.org/citation.cfm?id=2989415"
+    pdf: "https://arxiv.org/pdf/1607.00570.pdf"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Johannes Deleu, Chris Develder"
+  title: "Knowledge base population using semantic label propagation"
+  venue: "Knowledge-Based Systems"
+  a1: true
+  links:
+    online: "https://dl.acm.org/citation.cfm?id=2989721"
+    pdf: "https://arxiv.org/pdf/1511.06219"
+
+- authors: "Cedric De Boom, Sam Leroux, Steven Bohez, Pieter Simoens, Thomas Demeester, Bart Dhoedt"
+  title: "Efficiency Evaluation of Character-level RNN Training Schedules"
+  venue: "Proc. Data Efficient Machine Learning workshop"
+  links:
+    pdf: "https://arxiv.org/pdf/1605.02486"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Chris Develder, C Caragea"
+  title: "Supervised keyphrase extraction as positive unlabeled learning"
+  venue: "Proc. Conference on Empirical Methods in Natural Language Processing (EMNLP 2016)"
+  links:
+    pdf: "https://biblio.ugent.be/publication/8507315/file/8507320.pdf"
+
+- authors: "Thomas Demeester, Robin Aly, Djoerd Hiemstra, Dong Nguyen, Chris Develder"
+  title: "Predicting relevance based on assessor disagreement : analysis and practical applications for search evaluation"
+  venue: "Information Retrieval"
+  a1: true
+  links:
+    online: "https://dl.acm.org/citation.cfm?id=2957577"
+    pdf: "https://arxiv.org/pdf/1511.07237"
+
+- authors: "Baptist Vandersmissen, Lucas Sterckx, Thomas Demeester, Azarakhsh Jalalvand, Wesley De Neve, Rik Van de Walle"
+  title: "An automated end-to-end pipeline for fine-grained video annotation using deep neural networks"
+  venue: "Proc. ACM International Conference on Multimedia Retrieval (ICMR 2016)"
+  links:
+    pdf: "https://biblio.ugent.be/publication/8048654/file/8048655.pdf"

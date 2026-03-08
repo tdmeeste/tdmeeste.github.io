@@ -1,0 +1,27 @@
+- authors: "Thomas Demeester"
+  title: "Transmission Line Modeling of Lossy Interconnects with the Dirichlet to Neumann Boundary Operator."
+  venue: "Ph.D. Dissertation, Ghent University"
+  links:
+    pdf: "files/pubs/PhD_ThomasDemeester.pdf"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Construction and applications of the Dirichlet-to-Neumann operator in transmission line modeling"
+  venue: "Turkish Journal of Electrical Engineering and Computer Sciences"
+  a1: true
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Modeling the broadband resistive and inductive behavior of polygonal conductors"
+  venue: "Proc. International Conference on Electromagnetics in Advanced Applications (ICEAA 2009)"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Conductor modeling with the surface admittance operator of triangles"
+  venue: "Proc. IEEE Workshop on Signal Propagation on Interconnects (SPI 2009)"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Internal impedance of composite conductors with arbitrary cross section"
+  venue: "IEEE Transactions on Electromagnetic Compatibility"
+  a1: true
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Applications of the Dirichlet-to-Neumann boundary operator in transmission line modeling"
+  venue: "Proc. 20TH International Zurich Symposium on Electromagnetic Compatibility"

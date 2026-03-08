@@ -1,0 +1,87 @@
+- authors: "Robin Manhaeve, Sebastijan Dumancic, Angelika Kimmig, Thomas Demeester (*), Luc De Raedt (*)"
+  title: "DeepProbLog: Neural Probabilistic Logic Programming"
+  venue: "Neural Information Processing Systems (NeuIPS 2018)"
+  note: "(*) joint last authors"
+  links:
+    pdf: "https://arxiv.org/pdf/1805.10872"
+
+- authors: "Thomas Demeester, Johannes Deleu, Frederic Godin, Chris Develder"
+  title: "Predefined Sparseness in Recurrent Sequence Models"
+  venue: "Proc. The SIGNLL Conference on Computational Natural Language Learning (CoNLL)"
+  links:
+    code: "https://github.com/tdmeeste/SparseSeqModels"
+    pdf: "https://arxiv.org/pdf/1808.08720.pdf"
+    slides: "files/2018_11_01_CoNLL2018_PredefinedSparseness.pdf"
+
+- authors: "Frederic Godin, Kris Demuynck, Joni Dambre, Wesley De Neve, Thomas Demeester"
+  title: "Explaining Character-Aware Neural Networks for Word-Level Prediction: Do They Discover Linguistic Rules?"
+  venue: "Proc. Conference on Empirical Methods in Natural Language Processing (EMNLP 2018)"
+  links:
+    code: "https://github.com/FredericGodin/ContextualDecomposition-NLP"
+    pdf: "https://arxiv.org/pdf/1808.09551.pdf"
+
+- authors: "Giannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Adversarial training for multi-context joint entity and relation extraction"
+  venue: "Proc. Conference on Empirical Methods in Natural Language Processing (EMNLP 2018)"
+  links:
+    code: "https://github.com/bekou/multihead_joint_entity_relation_extraction"
+    pdf: "https://arxiv.org/pdf/1808.06876.pdf"
+
+- authors: "Giannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Joint entity recognition and relation extraction as a multi-head selection problem"
+  venue: "Expert Systems with Applications"
+  a1: true
+  links:
+    online: "https://arxiv.org/abs/1804.07847v1"
+    code: "https://github.com/bekou/multihead_joint_entity_relation_extraction"
+    pdf: "https://arxiv.org/pdf/1804.07847v1.pdf"
+
+- authors: "Dirk Weissenborn, Pasquale Minervine, Tim Dettmers, Isabelle Augenstein, Johannes Welbl, Tim Rocktaschel, Matko Bosnjak, Jeff Mitchell, Thomas Demeester, Pontus Stenetorp, Sebastian Riedel"
+  title: "Jack the Reader -- A Machine Reading Framework"
+  venue: "Proc. 56th Annual Meeting of the Association for Computational Linguistics (Demos track)"
+  links:
+    code: "https://github.com/uclmr/jack"
+    pdf: "https://arxiv.org/pdf/1806.08727"
+
+- authors: "Klim Zaporojets, Lucas Sterckx, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Predicting psychological health from childhood essays: The UGent-IDLab CLPsych 2018 shared task system"
+  venue: "Proc. 5th Ann. Workshop on Comput. Linguistics and Clinical Psychology (CLPsych 2018) at NAACL-HLT 2018"
+  links:
+    pdf: "https://biblio.ugent.be/publication/8567169/file/8567171.pdf"
+
+- authors: "Lucas Sterckx, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "Prior Attention for Style-aware Sequence-to-Sequence Models"
+  venue: "arXiv preprint"
+  links:
+    pdf: "https://arxiv.org/pdf/1806.09439.pdf"
+
+- authors: "Ioannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "An attentive neural architecture for joint segmentation and parsing and its application to real estate ads"
+  venue: "Expert Systems with Applications"
+  a1: true
+  links:
+    online: "https://dl.acm.org/citation.cfm?id=3199179"
+    pdf: "https://arxiv.org/pdf/1709.09590"
+
+- authors: "Lucas Sterckx, Thomas Demeester, Johannes Deleu, Chris Develder"
+  title: "Creation and evaluation of large keyphrase extraction collections with multiple opinions"
+  venue: "Language Resources and Evaluation"
+  a1: true
+  links:
+    online: "https://link.springer.com/article/10.1007/s10579-017-9395-6"
+    pdf: "https://biblio.ugent.be/publication/8563585/file/8563587.pdf"
+
+- authors: "Steven Van Canneyt, Philip Leroux, Bart Dhoedt, Thomas Demeester"
+  title: "Modeling and predicting the popularity of online news based on temporal and content-related features"
+  venue: "Multimedia Tools and Applications"
+  a1: true
+  links:
+    online: "https://link.springer.com/article/10.1007/s11042-017-4348-z"
+    pdf: "https://biblio.ugent.be/publication/8547204/file/8547206.pdf"
+
+- authors: "Bart Deygers, Koen Van Gorp, Thomas Demeester"
+  title: "The B2 Level and the Dream of a Common Standard"
+  venue: "Language Assessment Quarterly"
+  a1: true
+  links:
+    online: "https://www.tandfonline.com/doi/abs/10.1080/15434303.2017.1421955?journalCode=hlaq20"

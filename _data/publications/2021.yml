@@ -1,0 +1,68 @@
+- authors: "Klim Zaporojets, Giannis Bekoulis, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Solving arithmetic word problems by scoring equations with recursive neural networks"
+  venue: "Expert Syst. Appl."
+  a1: true
+  links:
+    pdf: "https://arxiv.org/pdf/2009.05639"
+
+- authors: "Amir Hadifar, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "Exploration of block-wise dynamic sparseness"
+  venue: "Pattern Recognit. Lett."
+  a1: true
+  links:
+    pdf: "https://biblio.ugent.be/publication/8722050/file/8722051.pdf"
+
+- authors: "Gilles Vandewiele, Isabelle Dehaene, Gyorgy Kovacs, Lucas Sterckx, Olivier Janssens, Femke Ongenae, Femke De Backere, Filip De Turck, Kristien Roelens, Johan Decruyenaere, Sofie Van Hoecke, Thomas Demeester"
+  title: "Overly optimistic prediction results on imbalanced data: a case study of flaws and benefits when applying over-sampling"
+  venue: "Artificial Intelligence in Medicine"
+  a1: true
+  links:
+    pdf: "https://arxiv.org/pdf/2001.06296"
+
+- authors: "Robin Manhaeve, Sebastijan Dumancic, Angelika Kimmig, Thomas Demeester, Luc De Raedt"
+  title: "Neural Probabilistic Logic Programming in DeepProbLog"
+  venue: "Artificial Intelligence"
+  a1: true
+  links:
+    online: "https://www.sciencedirect.com/science/article/pii/S0004370221000552"
+    pdf: "https://arxiv.org/pdf/1907.08194"
+
+- authors: "Klim Zaporojets, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "DWIE: An entity-centric dataset for multi-task document-level information extraction"
+  venue: "Information Processing & Management"
+  a1: true
+  links:
+    pdf: "https://arxiv.org/pdf/2009.12626"
+
+- authors: "Jens-Joris Decorte, Jeroen Van Hautte, Thomas Demeester, Chris Develder"
+  title: "JobBERT: Understanding job titles through skills"
+  venue: "Proc. Int. Workshop Fair, Effective and Sustainable Talent at ECML-PKDD (FEAST 2021)"
+  links:
+    pdf: "https://arxiv.org/pdf/2109.09605"
+
+- authors: "Severine Verlinden, Klim Zaporojets, Johannes Deleu, Thomas Demeester, Chris Develder"
+  title: "Injecting knowledge base information into end-to-end joint entity and relation extraction and coreference resolution"
+  venue: "Findings of the ACL: ACL-IJCNLP 2021"
+  links:
+    online: "https://aclanthology.org/2021.findings-acl.171/"
+    pdf: "https://arxiv.org/pdf/2107.02286"
+
+- authors: "Amir Hadifar, Sofie Labat, Veronique Hoste, Chris Develder, Thomas Demeester"
+  title: "A million tweets are worth a few points: Tuning transformers for customer support tasks"
+  venue: "Proc. Ann. Conf. North American Chapter Assoc. Comp. Linguist. (NAACL 2021)"
+  links:
+    pdf: "https://arxiv.org/pdf/2104.07944"
+
+- authors: "Maarten De Raedt, Frederic Godin, Pieter Buteneers, Chris Develder, Thomas Demeester"
+  title: "A simple geometric method for cross-lingual linguistic transformations with pre-trained autoencoders"
+  venue: "Proc. Conf. Empirical Methods in Natural Lang. Processing (EMNLP 2021)"
+  links:
+    online: "https://aclanthology.org/2021.emnlp-main.792/"
+    pdf: "https://aclanthology.org/2021.emnlp-main.792.pdf"
+
+- authors: "Semere Kiros Bitew, Johannes Deleu, Chris Develder, Thomas Demeester"
+  title: "Lazy low-resource coreference resolution: A study on leveraging black-box translation tools"
+  venue: "Proc. 4th Workshop Comput. Models of Reference, Anaphora and Coreference (CRAC 2021) at EMNLP 2021"
+  links:
+    online: "https://aclanthology.org/2021.crac-1.6/"
+    pdf: "https://aclanthology.org/2021.crac-1.6.pdf"

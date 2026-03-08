@@ -1,0 +1,17 @@
+- authors: "Dries Vande Ginste, Dirk Deschrijver, Thomas Demeester, Tom Dhaene, Daniel De Zutter"
+  title: "Broadband passive RLGC(f) modeling for on-chip interconnect design"
+  venue: "Proc. 2011 International Conference on Electromagnetics in Advanced Applications and IEEE-APS Topical Conference on Antennas and Propagation in Wireless Communications (ICEAA 2011)"
+
+- authors: "Thomas Demeester, Daniel De Zutter"
+  title: "Eigenmode-based capacitance calculations with applications in passivation layer design"
+  venue: "IEEE Transactions on Components Packaging and Manufacturing Technology"
+  a1: true
+
+- authors: "Thomas Demeester, Maarten Cauwe, Daniel De Zutter"
+  title: "Frequency-dependent substrate characterization via an iterative pole search algorithm"
+  venue: "IEEE Microwave and Wireless Components Letters"
+  a1: true
+
+- authors: "Robin Aly, Thomas Demeester"
+  title: "Towards a better understanding of the relationship between probabilistic models in IR"
+  venue: "Proc. 3rd Conference on Theory of Information Retrieval (ICTIR 2011), Lecture Notes in Computer Science"

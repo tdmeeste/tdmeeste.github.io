@@ -1,0 +1,71 @@
+- authors: "Felix Koulischer, Florian Handke, Johannes Deleu, Thomas Demeester, Luca Ambrogioni"
+  title: "Feedback guidance of diffusion models"
+  venue: "Advances in Neural Information Processing Systems 38 (NeurIPS 2025)"
+  links:
+    online: "https://openreview.net/forum?id=8ySOcf7UpM"
+    pdf: "https://arxiv.org/pdf/2506.06085"
+
+- authors: "Felix Koulischer, Johannes Deleu, Gabriel Raya, Thomas Demeester, Luca Ambrogioni"
+  title: "Dynamic negative guidance of diffusion models"
+  venue: "The Thirteenth International Conference on Learning Representations (ICLR 2025)"
+  links:
+    online: "https://openreview.net/forum?id=6p74UyAdLa"
+    pdf: "https://arxiv.org/pdf/2410.14398"
+
+- authors: "Stijn Van Ruymbeke, Aruna Audenaert, Henri Arno, Tibe Habils, Joke Baeck, Klaas Mulier, Thomas Demeester"
+  title: "Leveraging Artificial Intelligence as a Decision Support System in Belgian Commercial Courts"
+  venue: "Proceedings of the 20th International Conference on Artificial Intelligence and Law (ICAIL 2025)"
+  links:
+    online: "https://doi.org/10.1145/3769126.3769232"
+
+- authors: "Paloma Rabaey, Stefan Heytens, Thomas Demeester"
+  title: "SimSUM - simulated benchmark with structured and unstructured medical records"
+  venue: "Journal of Biomedical Semantics 16(1)"
+  a1: true
+  links:
+    online: "https://doi.org/10.1186/s13326-025-00341-6"
+
+- authors: "Quanqi Du, Sofie Labat, Thomas Demeester, Veronique Hoste"
+  title: "UniC: a dataset for emotion analysis of videos with multimodal and unimodal labels"
+  venue: "Language Resources and Evaluation 59(3): 2857–2892"
+  a1: true
+
+- authors: "Henri Arno, Klaas Mulier, Joke Baeck, Thomas Demeester"
+  title: "Business Failure Prediction From Textual and Tabular Data With Sentence-Level Interpretations"
+  venue: "Annals of Operations Research 353(2): 667–692"
+  a1: true
+  links:
+    pdf: "https://link.springer.com/content/pdf/10.1007/s10479-025-06574-z.pdf"
+
+- authors: "Karel D'Oosterlinck, Winnie Xu, Chris Develder, Thomas Demeester, Amanpreet Singh, Christopher Potts, Douwe Kiela, Shikib Mehri"
+  title: "Anchored Preference Optimization and Contrastive Revisions: Addressing Underspecification in Alignment"
+  venue: "Transactions of the Association for Computational Linguistics (TACL)"
+  a1: true
+  links:
+    online: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00748/130712"
+    pdf: "https://arxiv.org/pdf/2408.06266"
+
+- authors: "Heidelinde Dehaene, Alexander Decruyenaere, Christiaan Polet, Johan Decruyenaere, Paloma Rabaey, Thomas Demeester, Stijn Vansteelandt"
+  title: "Why synthetic discoveries are not only a problem of differentially private synthetic data"
+  venue: "Methods of information in medicine"
+  a1: true
+
+- authors: "Ruben Janssens, Pieter Wolfert, Thomas Demeester, Tony Belpaeme"
+  title: "Integrating Visual Context Into Language Models for Situated Social Conversation Starters"
+  venue: "IEEE Transactions on Affective Computing 16(1): 223–236"
+  a1: true
+  links:
+    online: "https://doi.org/10.1109/TAFFC.2024.3428704"  
+
+- authors: "Max Hallemeesch, Marija Pizurica, Paloma Rabaey, Olivier Gevaert, Thomas Demeester, Kathleen Marchal"
+  title: "Prior knowledge injection into deep learning models predicting gene expression from whole slide images"
+  venue: "Second Workshop on Imageomics (Imageomics-AAAI-25): discovering biological knowledge from images using AI"
+  links:
+    online: "https://openreview.net/forum?id=syh5b4X0gY"
+    pdf: "https://arxiv.org/pdf/2501.14056v1"
+
+- authors: "Rembert Daems, Sven Seys, Valerie Hox, Adam Chaker, Glynnis De Greve, Winde Lemmens, Anne-Lise Poirrier, Eline Beckers, Zuzana Diamant, Carmen Dierickx, Peter Hellings, Caroline Huart, Claudia Jerin, Mark Jorissen, Hanne Osce, Karolien Roux, Mark Thompson, Sophie Tombu, Saartje Uyttebroek, Andrzej Zarowski, Senne Gorris, Laura Van Gerven, Dirk Loeckx, Thomas Demeester"
+  title: "Improved allergy wheal detection for the skin prick automated test device"
+  venue: "AIME 2025: 23rd International Conference of Artificial Intelligence in Medicine"
+  links:
+    online: "http://hdl.handle.net/1854/LU-01JRZ4HG6YF17MSJSXXHXENV87"

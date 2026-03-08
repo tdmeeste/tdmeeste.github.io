@@ -1,0 +1,19 @@
+- authors: "Thomas Demeester, D Trieschnigg, D Nguyen, D Hiemstra"
+  title: "Overview of the TREC 2013 federated web search track"
+  venue: "Proc. Text Retrieval Conference (TREC 2013)"
+
+- authors: "R Aly, D Hiemstra, D Trieschnigg, Thomas Demeester"
+  title: "Mirex and taily at TREC 2013"
+  venue: "Proc. Text Retrieval Conference (TREC 2013)"
+
+- authors: "R Aly, D Hiemstra, Thomas Demeester"
+  title: "Taily: Shard selection using the tail of score distributions"
+  venue: "Proc. Special Interest Group on Information Retrieval (SIGIR 2013)"
+
+- authors: "Thomas Demeester, Dong Nguyen, Dolf Trieschnigg, Chris Develder, Djoerd Hiemstra"
+  title: "Snippet-based relevance predictions for federated web search"
+  venue: "Proc. European Conference on Information Retrieval (ECIR 2013)"
+
+- authors: "Laurent Mertens, Thomas Demeester, Johannes Deleu, Chris Develder"
+  title: "UGent participation in the TAC 2013 entity-linking task"
+  venue: "Proc. Text Analysis Conference (TAC 2013)"

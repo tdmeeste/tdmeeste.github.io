@@ -7,15 +7,13 @@
 								<div class="0u">
 									<h3>Useful links</h3>
 									<ul class="alt">
-										<li> Research page of the <a href="https://ugentt2k.github.io/">Text to Knowledge (T2K) team</a></li>
-                                        <li>The T2K team is part of the <a href="https://www.ugent.be/ea/idlab/en">Internet Technology and Data Science Lab (IDLab)</a>,
-											<a href="https://www.ugent.be/en">Ghent University</a> - <a href="https://www.imec-int.com/en/home">imec</a></li>
-                                        <li>The NLP research group <a href="https://www.lt3.ugent.be/">Language and Translation Technology Team</a> (LT3) at the Ghent University Faculty of Arts and Philosophy</li>
-										<li>Current teaching: <a href="https://studiekiezer.ugent.be/2023/studiefiche/en/E061341">Natural Language Processing (E061341)</a> 
+										{% for item in site.data.footer_links %}
+										<li>{% if item.prefix %}{{ item.prefix }}{% endif %}<a href="{{ item.url }}">{{ item.label }}</a></li>
+										{% endfor %}
 									</ul>
 								</div>
 							</div>
-                        </div>						
+                        </div>
 					</div>
 					<ul class="copyright">
 						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>

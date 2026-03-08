@@ -1,0 +1,172 @@
+current:
+  - name: Ruben Janssens
+    image: images/Ruben-Janssens-2021.png
+    topic: multi-modal human-robot conversation systems
+    supervisors: Tony Belpaeme, Thomas Demeester
+
+  - name: Henri Arno
+    image: images/Henri-Arno-2021.png
+    topic: predictive modeling (bankruptcy prediction) and causal inference from textual and tabular data
+    supervisors: Thomas Demeester, Joke Baeck, Klaas Mulier
+
+  - name: "Cédric Goemaere"
+    image: images/Cedric-Goemaere-2023.jpg
+    topic: "alternative learning paradigms: Hopfield networks, deep equilibrium models, predictive coding"
+    supervisors: Thomas Demeester
+
+  - name: Alexander Decruyenaere
+    image: images/alexander_decruyenaere_2024.jpg
+    topic: "synthetic tabular data: inferential utility in clinical applications"
+    supervisors: Sylvie Rottey, Thomas Demeester, Stijn Vansteelandt
+
+  - name: Felix Koulischer
+    image: images/Felix.png
+    topic: dynamic guidance in diffusion models
+    supervisors: Thomas Demeester
+
+  - name: Aruna Audenaert
+    image: images/aruna_audenaert_2024.jpeg
+    topic: legal aspects to the use of AI for supporting the Chamber for Companies in Difficulty
+    supervisors: Joke Baeck, Thomas Demeester, Klaas Mulier
+
+  - name: Stijn Van Ruymbeke
+    image: images/stijn_vanruymbeke_2025.jpg
+    topic: machine learning based decision support to the Chambers for Companies in Difficulty
+    supervisors: Joke Baeck, Klaas Mulier, Thomas Demeester
+
+  - name: Valentin Noske
+    image: images/valentin-noske-2024.jpeg
+    topic: machine learning models for antibody design and characterization
+    supervisors: Thomas Demeester, Jan Fostier, Kathleen Marchal
+
+  - name: Adrick Tench
+    image: images/adrick_tench_2024.jpeg
+    topic: neuro-symbolic information extraction from clinical data
+    supervisors: Thomas Demeester, Chris Develder
+
+  - name: Florian Handke
+    image: images/Florian-Handke_2025.webp
+    topic: guidance in diffusion models for protein design
+    supervisors: Thomas Demeester, Kathleen Marchal
+
+  - name: Alexandre Le Mercier
+    image: images/Alexandre-Le-Mercier-2025.jpeg
+    topic: Adversarial robustness of hybrid language models
+    supervisors: Chris Develder, Thomas Demeester
+
+  - name: Gianni Van de Velde
+    image: images/Gianni-Van-de-Velde-2025.jpeg
+    topic: extremely energy-efficient language encoders
+    supervisors: "Thomas Demeester, Chris Develder, François Remy"
+
+  - name: Warre Veys
+    image: images/Warre-Veys-2025.jpeg
+    topic: Efficient and adaptive learning for end-to-end HR systems
+    supervisors: Thomas Demeester, Chris Develder, Matthias De Lange
+
+former:
+
+  - name: Marija Pizurica
+    image: images/Marija-Pizurica-2025.jpeg
+    supervisors: Kathleen Marchal, Thomas Demeester, Olivier Gevaert
+    thesis_title: Deep learning models for predicting molecular tumor properties directly from whole slide images
+    thesis_url: https://research.ugent.be/web/person/marija-pizurica-0/publications/en
+    date: March 2026
+
+  - name: Paloma Rabaey
+    image: images/Paloma-Rabaey-2021.png
+    supervisors: Thomas Demeester, Stefan Heytens
+    thesis_title: Augmenting Bayesian Networks with Textual Evidence for Expert-Based, Uncertainty-Aware Clinical Decision Support
+    thesis_url: https://biblio.ugent.be/publication/01KJVX8MTHDRMZ0W65TQ0T9PAG
+    date: February 2026
+
+  - name: Jens-Joris Decorte
+    image: images/Jens-Joris-2021.jpg
+    supervisors: Thomas Demeester, Chris Develder, Jeroen Van Hautte
+    thesis_title: Specialised Natural Language Processing Methods for Modern Human Resource Management
+    thesis_url: https://www.ugent.be/nl/agenda/doctoraten/20251218-TW05
+    date: December 2025
+
+  - name: Sofie Labat
+    image: images/Sofie-Labat-2020.jpeg
+    supervisors: Veronique Hoste, Thomas Demeester
+    thesis_title: "Affective Threads - Data-driven modeling of emotional processes in social interaction"
+    thesis_url: https://biblio.ugent.be/publication/01KAM81VB3EVTSD3E2DQQWGSYA
+    date: October 2025
+
+  - name: "Karel D'Oosterlinck"
+    image: images/Karel-Doosterlinck-2021.jpg
+    supervisors: Chris Develder, Thomas Demeester
+    thesis_title: Interpreting and aligning large language models
+    thesis_url: http://hdl.handle.net/1854/LU-01JK5HK0FV3T73EGCY33911DRE
+    date: February 2025
+
+  - name: Maarten De Raedt
+    image: images/Maarten-De-Raedt-2019.png
+    supervisors: "Chris Develder, Thomas Demeester, Fréderic Godin"
+    thesis_title: Resource-efficient data annotation and augmentation methods for conversational agents
+    thesis_url: http://hdl.handle.net/1854/LU-01J2DMDT3X23RB3ET1EHH79EYP
+    date: July 2024
+
+  - name: "François Remy"
+    image: images/Francois-Remy-2023.jpg
+    supervisors: Kris Demuynck, Thomas Demeester
+    thesis_title: Deciphering the Semantics of Biomedical Texts
+    thesis_url: https://biblio.ugent.be/publication/01J013FTENXQ3QXF8EPMZ2MW3V
+    date: May 2024
+
+  - name: Semere Kiros Bitew
+    image: images/Semere-2022.jpg
+    supervisors: Chris Develder, Thomas Demeester
+    thesis_title: Language model adaptation with applications in artificial intelligence for education
+    thesis_url: http://hdl.handle.net/1854/LU-01HQT3DY7CBECQVPBMY7376K3S
+    date: March 2024
+
+  - name: Yiwei Jiang
+    image: images/Yiwei-Jiang-2019bis.jpg
+    supervisors: Thomas Demeester, Chris Develder
+    thesis_title: Towards grounded and robust task-oriented dialogue systems
+    thesis_url: http://hdl.handle.net/1854/LU-01HPPPFHDVY7H73J9JFA1R2CFT
+    date: February 2024
+
+  - name: Amir Hadifar
+    image: images/Amir-Hadifar-2019.png
+    supervisors: Chris Develder, Thomas Demeester, Veronique Hoste
+    thesis_title: "Towards efficient NLP models: strategies for improving data selection, training, and inference"
+    thesis_url: https://biblio.ugent.be/publication/01H45QMN57FBYCGTMQ6XRGT83R
+    date: June 2023
+
+  - name: Klim Zaporojets
+    image: images/Klim-Zaporojets-2021.png
+    supervisors: Chris Develder, Thomas Demeester
+    thesis_title: Neural approaches to entity-centric information extraction
+    thesis_url: http://hdl.handle.net/1854/LU-01GPAVRA7MNAXT4MNWDD9VPKVT
+    date: December 2022
+
+  - name: Giannis Bekoulis
+    image: images/Giannis-Bekoulis.png
+    supervisors: Chris Develder, Thomas Demeester
+    thesis_title: Neural approaches to sequence labeling for information extraction
+    thesis_url: https://biblio.ugent.be/publication/8631486
+    date: October 2019
+
+  - name: Lucas Sterckx
+    image: images/Lucas-Sterckx.jpg
+    supervisors: Chris Develder, Thomas Demeester
+    thesis_title: Methods for efficient supervision in natural language processing
+    thesis_url: https://biblio.ugent.be/publication/8565903/file/8565904.pdf
+    date: June 2018
+
+  - name: Cedric De Boom
+    image: images/Cedric-De-Boom-2021.png
+    supervisors: Bart Dhoedt, Thomas Demeester
+    thesis_title: Representation learning for symbolic sequences
+    thesis_url: https://biblio.ugent.be/publication/8562668/file/8562669.pdf
+    date: May 2018
+
+  - name: Steven Van Canneyt
+    image: images/Steven-Van-Canneyt.jpeg
+    supervisors: Bart Dhoedt, Steven Schockaert, Thomas Demeester
+    thesis_title: Knowledge Extraction and Popularity Modeling Using Social Media
+    thesis_url: https://biblio.ugent.be/publication/8133560
+    date: October 2016

@@ -1,0 +1,36 @@
+- authors: "Henri Arno, Dennis Frauen, Emil Javurek, Thomas Demeester, Stefan Feuerriegel"
+  title: "Rank-Learner: Orthogonal Ranking of Treatment Effects"
+  venue: "CoRR (preprint)"
+  links:
+    pdf: "https://arxiv.org/pdf/2602.03517"
+
+- authors: "Paloma Rabaey, Adrick Tench, Stefan Heytens, Thomas Demeester"
+  title: "Patient-level Information Extraction by Consistent Integration of Textual and Tabular Evidence with Bayesian Networks"
+  venue: "CoRR (preprint)"
+  links:
+    pdf: "https://arxiv.org/abs/2511.17056"
+
+- authors: "Alexandre Le Mercier, Chris Develder, Thomas Demeester"
+  title: "Hidden State Poisoning Attacks against Mamba-based Language Models"
+  venue: "CoRR (preprint)"
+  links:
+    pdf: "https://arxiv.org/abs/2601.01972"
+
+- authors: "Adrick Tench, Thomas Demeester"
+  title: "Dynamic Expert-Guided Model Averaging for Causal Discovery"
+  venue: "CoRR (preprint)"
+  links:
+    pdf: "https://arxiv.org/abs/2601.16715"
+
+- authors: "Henri Arno, Thomas Demeester"
+  title: "Learning Treatment Policies From Multimodal Electronic Health Record"
+  venue: "CoRR (preprint)"
+  links:
+    pdf: "https://arxiv.org/abs/2507.20993"
+
+- authors: "Paloma Rabaey, Jong Hak Moon, Jung-Oh Lee, Min Gwan Kim, Hangyul Yoon, Thomas Demeester, Edward Choi"
+  title: "Modeling Clinical Uncertainty in Radiology Reports: from Explicit Uncertainty Markers to Implicit Reasoning Pathways"
+  venue: "Language Resources and Evaluation Conference (LREC 2026)"
+  links:
+    pdf: "https://arxiv.org/abs/2511.04506"    
+
