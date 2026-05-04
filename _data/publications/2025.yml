@@ -45,6 +45,14 @@
     online: "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00748/130712"
     pdf: "https://arxiv.org/pdf/2408.06266"
 
+- authors: "Jens-Joris Decorte, Jeroen Van Hautte, Chris Develder, Thomas Demeester"
+  title: "Efficient text encoders for labor market analysis"
+  venue: "IEEE Access, Jul. 2025"
+  a1: true
+  links: 
+    online: "https://ieeexplore.ieee.org/document/11079977"
+    pdf: "https://arxiv.org/pdf/2505.24640"
+
 - authors: "Heidelinde Dehaene, Alexander Decruyenaere, Christiaan Polet, Johan Decruyenaere, Paloma Rabaey, Thomas Demeester, Stijn Vansteelandt"
   title: "Why synthetic discoveries are not only a problem of differentially private synthetic data"
   venue: "Methods of information in medicine"
