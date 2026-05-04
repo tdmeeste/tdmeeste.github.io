@@ -1,8 +1,27 @@
 - authors: "Henri Arno, Dennis Frauen, Emil Javurek, Thomas Demeester, Stefan Feuerriegel"
   title: "Rank-Learner: Orthogonal Ranking of Treatment Effects"
-  venue: "CoRR (preprint)"
+  venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
   links:
     pdf: "https://arxiv.org/pdf/2602.03517"
+
+- authors: "Cédric Goemaere, Gaspard Olivier, Rafal Bogacz, Thomas Demeester"
+  title: "ePC: Fast and Deep Predictive Coding for Digital Hardware"
+  venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
+  links: "https://arxiv.org/abs/2505.20137"
+
+- authors: "Florian Handke, Dejan Stančević, Felix Koulischer, Thomas Demeester, Luca Ambrogioni"
+  title: "The Entropic Signature of Class Speciation in Diffusion Models"
+  venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
+  links: "https://arxiv.org/abs/2602.09651" 
+
+
+- authors: "Paloma Rabaey, Jong Hak Moon, Jung-Oh Lee, Min Gwan Kim, Hangyul Yoon, Thomas Demeester, Edward Choi"
+  title: "Modeling Clinical Uncertainty in Radiology Reports: from Explicit Uncertainty Markers to Implicit Reasoning Pathways"
+  venue: "Language Resources and Evaluation Conference (LREC 2026)"
+  links:
+    pdf: "https://arxiv.org/abs/2511.04506"    
+
+
 
 - authors: "Paloma Rabaey, Adrick Tench, Stefan Heytens, Thomas Demeester"
   title: "Patient-level Information Extraction by Consistent Integration of Textual and Tabular Evidence with Bayesian Networks"
@@ -27,10 +46,4 @@
   venue: "CoRR (preprint)"
   links:
     pdf: "https://arxiv.org/abs/2507.20993"
-
-- authors: "Paloma Rabaey, Jong Hak Moon, Jung-Oh Lee, Min Gwan Kim, Hangyul Yoon, Thomas Demeester, Edward Choi"
-  title: "Modeling Clinical Uncertainty in Radiology Reports: from Explicit Uncertainty Markers to Implicit Reasoning Pathways"
-  venue: "Language Resources and Evaluation Conference (LREC 2026)"
-  links:
-    pdf: "https://arxiv.org/abs/2511.04506"    
 
