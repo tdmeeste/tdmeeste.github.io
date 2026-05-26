@@ -1,3 +1,5 @@
+_**News:** Our group has three accepted ICML 2026 papers with external collaborators: [Rank-Learner: Orthogonal Ranking of Treatment Effects](https://arxiv.org/pdf/2602.03517) with Henri Arno, Dennis Frauen, Emil Javurek and Stefan Feuerriegel; [ePC: Fast and Deep Predictive Coding for Digital Hardware](https://arxiv.org/abs/2505.20137) with Cédric Goemaere, Gaspard Oliviers and Rafal Bogacz; and [The Entropic Signature of Class Speciation in Diffusion Models](https://arxiv.org/abs/2602.09651) with Florian Handke, Dejan Stančević, Felix Koulischer and Luca Ambrogioni._
+
 I am an associate professor at the [Internet Technology and Data Science Lab (IDLab)](https://www.ugent.be/ea/idlab/en),
 Ghent University - imec, Belgium.
 Until a few years ago, I was mainly working on natural language processing (NLP),
@@ -5,20 +7,17 @@ but I've always been more interested in the underlying machine learning methods 
 As soon as I was appointed assistant professor in 2019, I've initiated an AI research track that goes beyond NLP, with health as a key application area.
 I've been very fortunate to gather a group of highly talented PhD students working in that direction, and I'm grateful to the Research Foundation Flanders for funding many of them.
 
-The research tracks we recently engaged in include **non-conventional AI techniques** (with a recent paper on [Hopfield Networks and Deep Equilibrium Models](https://proceedings.mlr.press/v255/goemaere24a),
-as well as a breakthrough in simulating deeper predictive coding networks than was possible before),
-**neuro-symbolic AI** (with recent work on [clinical reasoning](https://dl.acm.org/doi/10.1007/978-3-031-66538-7_24) as well as [learning treatment policies](https://arxiv.org/abs/2507.20993) on combined tabular and textual clinical data).
-In collaboration with [Luca Ambrogioni](https://www.artcogsys.com/team/luca) from Radboud University, we've looked into dynamic guidance strategies for **diffusion models**
-(with a paper on [negative dynamic guidance](https://arxiv.org/abs/2410.14398) at ICLR 2025, and on [feedback guidance](https://arxiv.org/abs/2506.06085) at NeurIPS 2025),
-and with [Stijn Vansteelandt](https://www.ugent.be/dass/en/research/vansteelandt) and the [Syndara](https://syndara.ai/Home.html) team at the UZ Ghent hospital,
-we've worked on the inferential utility of **synthetic medical data** (with papers at [UAI](https://openreview.net/forum?id=OR9bNsVPWb) and NeurIPS 2024).
+Here are my most recent research tracks:
+- **Non-conventional AI techniques:** recent work on [Hopfield Networks and Deep Equilibrium Models](https://proceedings.mlr.press/v255/goemaere24a), and the [ePC technique](https://arxiv.org/abs/2505.20137), which makes it possible to simulate deeper predictive coding networks (ICML 2026).
+- **Neuro-symbolic AI:** progress on [clinical reasoning](https://dl.acm.org/doi/10.1007/978-3-031-66538-7_24) and on [learning treatment policies](https://arxiv.org/abs/2507.20993) from combined tabular and textual clinical data.
+- **Causal machine learning:** the [Rank-Learner](https://arxiv.org/pdf/2602.03517) approach for robust ranking of treatment effects (ICML 2026).
+- **Diffusion models:** in collaboration with [Luca Ambrogioni](https://www.artcogsys.com/team/luca) (Radboud University) we explored dynamic guidance strategies for diffusion models, with papers on [negative dynamic guidance](https://arxiv.org/abs/2410.14398) (ICLR 2025), [feedback guidance](https://arxiv.org/abs/2506.06085) (NeurIPS 2025), and [class speciation](https://arxiv.org/abs/2602.09651) (ICML 2026).
+- **Synthetic medical data:** together with [Stijn Vansteelandt](https://www.ugent.be/dass/en/research/vansteelandt) and the [Syndara](https://syndara.ai/Home.html) team at UZ Ghent we investigated the inferential utility of synthetic clinical data (papers at [UAI](https://openreview.net/forum?id=OR9bNsVPWb) and NeurIPS 2024).
 
 We've spent considerable time and effort over the last year on exploring the state of the art and beyond in **AI for drug design**,
 especially from the perspective of powerful protein language models and diffusion models.
-We've set up several collaborations in this area, with imec, and a number of Flemish biotech companies.
-Given the available budget and our ambitions in this area, I am focusing most of my time on this newest research track.
-The goal is that our recent work on diffusion models, energy-based models, and neuro-symbolic approaches in the end come together
-in the application area of protein design.
+We've set up several collaborations in this area, with imec, and a number of Flemish biotech companies. 
+The goal is that our recent work on diffusion models, energy-based models, and neuro-symbolic approaches in the end come together in the application area of protein design.
 
 Over the last decade, I've been building up and co-leading the Text-to-Knowledge research cluster with prof. [Chris Develder](http://users.atlantis.ugent.be/cdvelder/).
 We worked on natural language processing (NLP) in general, for applications in several domains
