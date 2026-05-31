@@ -1,3 +1,5 @@
+
+
 - authors: "Henri Arno, Dennis Frauen, Emil Javurek, Thomas Demeester, Stefan Feuerriegel"
   title: "Rank-Learner: Orthogonal Ranking of Treatment Effects"
   venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
@@ -14,7 +16,12 @@
   venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
   links: "https://arxiv.org/abs/2602.09651" 
 
-
+- authors: "Géraldine Deberdt, Paloma Rabaey, Sam Van Damme, Laure-Ann Quenon, Peter Decat, Thomas Demeester"
+  title: "Using causal effect estimation to evaluate occupational stress factors during a weekend on-call shift among general practitioners in training
+  venue: "BMC Primary Care 27(22), 2026"
+  links: https://doi.org/10.1186/s12875-025-03140-1
+    pdf: 
+    
 - authors: "Paloma Rabaey, Jong Hak Moon, Jung-Oh Lee, Min Gwan Kim, Hangyul Yoon, Thomas Demeester, Edward Choi"
   title: "Modeling Clinical Uncertainty in Radiology Reports: from Explicit Uncertainty Markers to Implicit Reasoning Pathways"
   venue: "Language Resources and Evaluation Conference (LREC 2026)"
@@ -22,10 +29,9 @@
     pdf: "https://arxiv.org/abs/2511.04506"    
 
 
-
 - authors: "Paloma Rabaey, Adrick Tench, Stefan Heytens, Thomas Demeester"
   title: "Patient-level Information Extraction by Consistent Integration of Textual and Tabular Evidence with Bayesian Networks"
-  venue: "CoRR (preprint)"
+  venue: "Applied Intelligence (accepted)"
   links:
     pdf: "https://arxiv.org/abs/2511.17056"
 
@@ -42,8 +48,13 @@
     pdf: "https://arxiv.org/abs/2601.16715"
 
 - authors: "Henri Arno, Thomas Demeester"
-  title: "Learning Treatment Policies From Multimodal Electronic Health Record"
+  title: "Annotation-Assisted Learning of Treatment Policies From Multimodal Electronic Health Records"
   venue: "CoRR (preprint)"
   links:
     pdf: "https://arxiv.org/abs/2507.20993"
 
+- authors: "Stijn Van Ruymbeke, Joke Baeck, Klaas Mulier, Thomas Demeester"
+  title: "Artificial intelligence in the judiciary: a systematic literature review on the practical applications"
+  venue: "Information & Communications Technology Law, 1-33"
+  links: https://doi.org/10.1080/13600834.2026.2644818
+    pdf: 
