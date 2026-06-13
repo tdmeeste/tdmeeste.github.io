@@ -1,8 +1,4 @@
 current:
-  - name: Ruben Janssens
-    image: images/Ruben-Janssens-2021.png
-    topic: multi-modal human-robot conversation systems
-    supervisors: Tony Belpaeme, Thomas Demeester
 
   - name: Henri Arno
     image: images/Henri-Arno-2021.png
@@ -65,12 +61,18 @@ current:
     supervisors: Thomas Demeester, Chris Develder, Matthias De Lange
 
 former:
-
+  - name: Ruben Janssens
+    image: images/Ruben-Janssens-2021.png
+    supervisors: Tony Belpaeme, Thomas Demeester
+    thesis_title: 	Visually Grounded Adaptive Social Dialogue for Robots
+    thesis_url: https://biblio.ugent.be/publication/01KN63PE89Q6WA17A74KJCPERV
+    date: March 2026
+    
   - name: Marija Pizurica
     image: images/Marija-Pizurica-2025.jpeg
     supervisors: Kathleen Marchal, Thomas Demeester, Olivier Gevaert
     thesis_title: Deep learning models for predicting molecular tumor properties directly from whole slide images
-    thesis_url: https://research.ugent.be/web/person/marija-pizurica-0/publications/en
+    thesis_url: https://biblio.ugent.be/publication/01KK8ZHVYDNMGZHC5H2FZJH3E4
     date: March 2026
 
   - name: Paloma Rabaey
