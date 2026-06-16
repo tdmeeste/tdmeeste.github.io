@@ -14,7 +14,7 @@ Here are my most recent research tracks:
 - **Diffusion models:** in collaboration with [Luca Ambrogioni](https://www.artcogsys.com/team/luca) (Radboud University) we explored dynamic guidance strategies for diffusion models, with papers on [negative dynamic guidance](https://arxiv.org/abs/2410.14398) (ICLR 2025), [feedback guidance](https://arxiv.org/abs/2506.06085) (NeurIPS 2025), and [class speciation](https://arxiv.org/abs/2602.09651) (ICML 2026).
 - **Synthetic medical data:** together with [Stijn Vansteelandt](https://www.ugent.be/dass/en/research/vansteelandt) and the [Syndara](https://syndara.ai/Home.html) team at UZ Ghent we investigated the inferential utility of synthetic clinical data (papers at [UAI](https://openreview.net/forum?id=OR9bNsVPWb) and NeurIPS 2024).
 
-We've spent considerable time and effort over the last year on exploring the state of the art and beyond in **AI for drug design**,
+We've spent considerable time and effort over the last year exploring the state of the art and beyond in **AI for drug design**,
 especially from the perspective of powerful protein language models and diffusion models.
 We've set up several collaborations in this area, with imec, and a number of Flemish biotech companies. 
 The goal is that our recent work on control over generative models and the causal machine learning approaches in the end come together in the application area of protein design.  As first proof-of-concept, our [recent paper](https://www.biorxiv.org/content/10.64898/2026.06.04.730089v1.full.pdf) at the ICML GenBio 2026 workshop shows the benefits of guiding an inverse folding model by a protein language model.

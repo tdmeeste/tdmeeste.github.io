@@ -16,6 +16,11 @@
   venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
   links: "https://arxiv.org/abs/2602.09651" 
 
+- authors: "Valentin Noske, Felix Koulischer, Kathleen Marchal, Thomas Demeester"
+  title: "pLM-Guided Inverse Folding for Antibody Sequence Design"
+  venue: "The 2026 workshop on Generative and Agentic AI for Biology"
+  links: "https://www.biorxiv.org/content/10.64898/2026.06.04.730089v1.full.pdf"
+
 - authors: "Géraldine Deberdt, Paloma Rabaey, Sam Van Damme, Laure-Ann Quenon, Peter Decat, Thomas Demeester"
   title: "Using causal effect estimation to evaluate occupational stress factors during a weekend on-call shift among general practitioners in training"
   venue: "BMC Primary Care 27(22), 2026"
