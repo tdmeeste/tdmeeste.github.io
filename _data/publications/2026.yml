@@ -1,4 +1,9 @@
 
+- authors: "Henri Arno, Thomas Demeester"
+  title: "Annotation-Assisted Learning of Treatment Policies From Multimodal Electronic Health Records"
+  venue: "Machine Learning for Healthcare (MLHC 2026)"
+  links:
+    pdf: "https://arxiv.org/abs/2507.20993"
 
 - authors: "Henri Arno, Dennis Frauen, Emil Javurek, Thomas Demeester, Stefan Feuerriegel"
   title: "Rank-Learner: Orthogonal Ranking of Treatment Effects"
@@ -51,12 +56,6 @@
   venue: "CoRR (preprint)"
   links:
     pdf: "https://arxiv.org/abs/2601.16715"
-
-- authors: "Henri Arno, Thomas Demeester"
-  title: "Annotation-Assisted Learning of Treatment Policies From Multimodal Electronic Health Records"
-  venue: "Machine Learning for Healthcare (MLHC 2026)"
-  links:
-    pdf: "https://arxiv.org/abs/2507.20993"
 
 - authors: "Stijn Van Ruymbeke, Joke Baeck, Klaas Mulier, Thomas Demeester"
   title: "Artificial intelligence in the judiciary: a systematic literature review on the practical applications"
