@@ -14,29 +14,34 @@
 - authors: "Cédric Goemaere, Gaspard Olivier, Rafal Bogacz, Thomas Demeester"
   title: "ePC: Fast and Deep Predictive Coding for Digital Hardware"
   venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
-  links: "https://arxiv.org/abs/2505.20137"
+  links:
+    online: "https://arxiv.org/abs/2505.20137"
 
 - authors: "Florian Handke, Dejan Stančević, Felix Koulischer, Thomas Demeester, Luca Ambrogioni"
   title: "The Entropic Signature of Class Speciation in Diffusion Models"
   venue: "Forty-Third International Conference on Machine Learning (ICML 2026)"
-  links: "https://arxiv.org/abs/2602.09651" 
+  links:
+    online: "https://arxiv.org/abs/2602.09651"
 
 - authors: "Valentin Noske, Felix Koulischer, Kathleen Marchal, Thomas Demeester"
   title: "pLM-Guided Inverse Folding for Antibody Sequence Design"
   venue: "The 2026 workshop on Generative and Agentic AI for Biology"
-  links: "https://www.biorxiv.org/content/10.64898/2026.06.04.730089v1.full.pdf"
+  links:
+    pdf: "https://www.biorxiv.org/content/10.64898/2026.06.04.730089v1.full.pdf"
 
 - authors: "Géraldine Deberdt, Paloma Rabaey, Sam Van Damme, Laure-Ann Quenon, Peter Decat, Thomas Demeester"
   title: "Using causal effect estimation to evaluate occupational stress factors during a weekend on-call shift among general practitioners in training"
   venue: "BMC Primary Care 27(22), 2026"
-  links: "https://link.springer.com/article/10.1186/s12875-025-03140-1"
+  links:
+    online: "https://link.springer.com/article/10.1186/s12875-025-03140-1"
     pdf: "https://doi.org/10.1186/s12875-025-03140-1"
     
 - authors: "Paloma Rabaey, Jong Hak Moon, Jung-Oh Lee, Min Gwan Kim, Hangyul Yoon, Thomas Demeester, Edward Choi"
   title: "Modeling Clinical Uncertainty in Radiology Reports: from Explicit Uncertainty Markers to Implicit Reasoning Pathways"
   venue: "Language Resources and Evaluation Conference (LREC 2026)"
-  links: "https://lrec.elra.info/lrec2026-main-928"
-    pdf: "https://arxiv.org/abs/2511.04506"    
+  links:
+    online: "https://lrec.elra.info/lrec2026-main-928"
+    pdf: "https://arxiv.org/abs/2511.04506"
 
 
 - authors: "Paloma Rabaey, Adrick Tench, Stefan Heytens, Thomas Demeester"
