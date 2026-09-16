@@ -66,7 +66,7 @@ current:
     supervisors: Kathleen Marchal, Thomas Demeester
 
   - name: Maico Bruyneel
-    image: image/maico_bruyneel_2026.jpg
+    image: images/maico_bruyneel_2026.jpg
     topic: Causal discovery from structured and unstructured biomedical data
     supervisors: Thomas Demeester, Kathleen Marchal
 
