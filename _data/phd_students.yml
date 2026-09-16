@@ -33,7 +33,7 @@ current:
   - name: Valentin Noske
     image: images/valentin-noske-2024.jpeg
     topic: machine learning models for antibody design and characterization
-    supervisors: Thomas Demeester, Jan Fostier, Kathleen Marchal
+    supervisors: Thomas Demeester, Kathleen Marchal
 
   - name: Adrick Tench
     image: images/adrick_tench_2024.jpeg
@@ -59,6 +59,18 @@ current:
     image: images/Warre-Veys-2025.jpeg
     topic: Efficient and adaptive learning for end-to-end HR systems
     supervisors: Thomas Demeester, Chris Develder, Matthias De Lange
+
+  - name: Jihwan Lim
+    image: images/Jihwan_Lim_2025.jpg
+    topic: AI-based inference of causal gene-gene interactions from perturbation data
+    supervisors: Kathleen Marchal, Thomas Demeester
+
+  - name: Maico Bruyneel
+    image: image/maico_bruyneel_2026.jpg
+    topic: Causal discovery from structured and unstructured biomedical data
+    supervisors: Thomas Demeester, Kathleen Marchal
+
+
 
 former:
   - name: Ruben Janssens
